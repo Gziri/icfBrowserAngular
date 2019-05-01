@@ -1,0 +1,24 @@
+/* You can add global styles to this file, and also import other style files */
+
+/* @import '@angular/material/prebuilt-themes/indigo-pink.css'; */
+
+@import '@angular/material/prebuilt-themes/pink-bluegrey.css';
+/* @import '@angular/material/prebuilt-themes/deeppurple-amber.css'; */
+
+html, body {
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  font-family: Roboto, "Helvetica Neue", sans-serif;
+}
+
+.right-aligned-header>.mat-content {
+  justify-content: left;
+}
+
+.mat-content>mat-panel-description {
+  flex: 0 1 auto;
+  padding-right: 10%;
+}

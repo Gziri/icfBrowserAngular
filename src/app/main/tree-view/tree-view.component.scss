@@ -1,0 +1,142 @@
+.right-aligned-header>.mat-content {
+    justify-content: left;
+}
+
+.mat-content>mat-panel-description {
+    flex: 0 1 auto;
+    padding-right: 35%;
+}
+
+/* .mat-button {
+    margin-right: 15%;
+    align-content: center !important;
+} */
+
+mat-card {
+    margin-top: 5px;
+    margin-bottom: 10px;
+    background-color: #4e4e4e
+}
+
+mat-expansion-panel {
+    margin-top: 5px;
+    margin-bottom: 8px;
+    background-color: #535353;
+    color: black
+}
+
+.secondlass {
+    background-color: #737373;
+    color: white;
+}
+
+.thirdclass {
+    background-color: #999999;
+    color: white;
+}
+
+.fourthclass {
+    background-color: #b3b3b3;
+    color: white;
+}
+
+.fifthclass {
+    background-color: #cccccc;
+    color: white;
+}
+
+.sixthclass {
+    background-color: #e6e6e6;
+    color: white;
+}
+
+/* mat-expansion-panel-header {
+    background-color: #474747 !important;
+} */
+
+.circle {
+    width: 25px;
+    height: 25px;
+    background: rgb(231, 216, 216);
+    -moz-border-radius: 12.5px;
+    -webkit-border-radius: 12.5px;
+    border-radius: 12.5px;
+    align-content: center
+}
+
+.sixthpanel {
+    background-color: #7d7d7d !important;
+}
+
+.fifthpanel {
+    background-color: #7d7d7d !important;
+}
+
+.fourthpanel {
+    background-color: #636363 !important;
+}
+
+.thirdpanel {
+    background-color: #494949 !important;
+}
+
+.secondpanel {
+    background-color: #2f2f2f !important;
+}
+
+.firstpanel {
+    background-color: #151515 !important;
+}
+
+::ng-deep .mat-expansion-panel-header[aria-disabled=true] {
+    color: white;
+    height: fit-content
+}
+
+mat-expansion-panel-header {
+    height: 100%;
+}
+
+mat-panel-title {
+    /* white-space: nowrap; */
+    overflow: hidden;
+    text-overflow: ellipsis;
+    font-size-adjust: 100%;
+}
+
+mat-panel-description {
+    color: white;
+}
+
+.material-icons {
+    color: lightgray;
+}
+
+.mt-buttons{
+    margin-right: 10px;
+}
+
+.chosenArrayClass {
+    display: inline-block;
+    width: fit-content;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    animation: slide-up 0.4s ease-in-out;
+}
+
+.chosenArrayBox {
+    animation: slide-up 1s ease-in-out;
+}
+
+@keyframes slide-up {
+    0% {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+/* ICF color #d31145 */

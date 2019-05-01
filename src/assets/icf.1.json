@@ -1,0 +1,1627 @@
+[
+	{
+		"catName": "asdBODY FUNCTIONS",
+		"initial": "b",
+		"number": "",
+		"description": "Lorem Ipsum Dolor Description",
+		"subCat": [
+			{
+				"catName": "MENTAL FUNCTIONS",
+				"initial": "b",
+				"number": "1",
+				"description": "Lorem Ipsum Dolor Description",
+				"subCat": [
+					{
+						"catName": "Global mental functions",
+						"initial": "b",
+						"number": "110-139",
+						"description": "Lorem Ipsum Dolor Description",
+						"subCat": [
+							{
+								"catName": "Consciousness functions",
+								"initial": "b",
+								"number": "110",
+								"description": "Lorem Ipsum Dolor Description",
+								"subCat": [
+									{
+										"catName": "State of consciousness",
+										"initial": "b",
+										"number": "1100",
+										"description": "",
+										"subCat": []
+									},
+									{
+										"catName": "Continuity of consciousness",
+										"initial": "b",
+										"number": "1101",
+										"description": "",
+										"subCat": []
+									},
+									{
+										"catName": "Quality of consciousness",
+										"initial": "b",
+										"number": "1102",
+										"description": "",
+										"subCat": []
+									},
+									{
+										"catName": "Consciousness functions, other specified",
+										"initial": "b",
+										"number": "1108",
+										"description": "",
+										"subCat": []
+									},
+									{
+										"catName": "Consciousness functions, unspecified",
+										"initial": "b",
+										"number": "1109",
+										"description": "",
+										"subCat": []
+									}
+								]
+							},
+							{
+								"catName": "Orientation functions",
+								"initial": "b",
+								"number": "114",
+								"description": "",
+								"subCat": [
+									{
+										"catName": "Orientation to time",
+										"initial": "b",
+										"number": "1140",
+										"description": "",
+										"subCat": []
+									},
+									{
+										"catName": "Orientation to place",
+										"initial": "b",
+										"number": "1141",
+										"description": "",
+										"subCat": []
+									},
+									{
+										"catName": "Orientation to person",
+										"initial": "b",
+										"number": "1142",
+										"description": "",
+										"subCat": [
+											{
+												"catName": "Orientation to self",
+												"initial": "b",
+												"number": "11420",
+												"description": "",
+												"subCat": []
+											},
+											{
+												"catName": "Orientation to others",
+												"initial": "b",
+												"number": "11421",
+												"description": "",
+												"subCat": []
+											},
+											{
+												"catName": "Orientation to person, other specified",
+												"initial": "b",
+												"number": "11428",
+												"description": "",
+												"subCat": []
+											},
+											{
+												"catName": "Orientation to person, unspecified",
+												"initial": "b",
+												"number": "11429",
+												"description": "",
+												"subCat": []
+											}
+										]
+									},
+									{
+										"catName": "Orientation to objects",
+										"initial": "b",
+										"number": "1143",
+										"description": "",
+										"subCat": []
+									},
+									{
+										"catName": "Orientation to space",
+										"initial": "b",
+										"number": "1145",
+										"description": "",
+										"subCat": []
+									},
+									{
+										"catName": "Orientation functions, other specified",
+										"initial": "b",
+										"number": "1148",
+										"description": "",
+										"subCat": []
+									},
+									{
+										"catName": "Orientation functions, unspecified",
+										"initial": "b",
+										"number": "1149",
+										"description": "",
+										"subCat": []
+									}
+								]
+							},
+							{
+								"catName": "Intellectual functions",
+								"initial": "b",
+								"number": "117",
+								"description": "",
+								"subCat": []
+							},
+							{
+								"catName": "Global psychosocial functions",
+								"initial": "b",
+								"number": "122",
+								"description": "",
+								"subCat": []
+							},
+							{
+								"catName": "Temperament and personality functions",
+								"initial": "b",
+								"number": "126",
+								"description": "",
+								"subCat": [
+									{
+										"catName": "Extraversion",
+										"initial": "b",
+										"number": "1260",
+										"description": "",
+										"subCat": []
+									},
+									{
+										"catName": "Agreeableness",
+										"initial": "b",
+										"number": "1261",
+										"description": "",
+										"subCat": []
+									},
+									{
+										"catName": "Conscientiousness",
+										"initial": "b",
+										"number": "1262",
+										"description": "",
+										"subCat": []
+									},
+									{
+										"catName": "Psychic stability",
+										"initial": "b",
+										"number": "1263",
+										"description": "",
+										"subCat": []
+									},
+									{
+										"catName": "Openness to experience",
+										"initial": "b",
+										"number": "1264",
+										"description": "",
+										"subCat": []
+									},
+									{
+										"catName": "Optimism",
+										"initial": "b",
+										"number": "1265",
+										"description": "",
+										"subCat": []
+									},
+									{
+										"catName": "Confidence",
+										"initial": "b",
+										"number": "1266",
+										"description": "",
+										"subCat": []
+									},
+									{
+										"catName": "Trustworthiness",
+										"initial": "b",
+										"number": "1267",
+										"description": "",
+										"subCat": []
+									},
+									{
+										"catName": "Temperament and personality functions, other specified",
+										"initial": "b",
+										"number": "1268",
+										"description": "",
+										"subCat": []
+									},
+									{
+										"catName": "Temperament and personality functions, unspecified",
+										"initial": "b",
+										"number": "1269",
+										"description": "",
+										"subCat": []
+									}
+								]
+							},
+							{
+								"catName": "Energy and drive functions",
+								"initial": "b",
+								"number": "130",
+								"description": "",
+								"subCat": [
+									{
+										"catName": "Energy level",
+										"initial": "b",
+										"number": "1300",
+										"description": "Mental functions that produce vigour and stamina.",
+										"subCat": []
+									},
+									{
+										"catName": "Motivation",
+										"initial": "b",
+										"number": "1301",
+										"description": "Mental functions that produce the incentive to act; the conscious or unconscious driving force for action.",
+										"subCat": []
+									},
+									{
+										"catName": "Appetites",
+										"initial": "b",
+										"number": "1302",
+										"description": "Mental functions that produce a natural longing or desire, especially the natural and recurring desire for food and drink.",
+										"subCat": []
+									},
+									{
+										"catName": "Craving",
+										"initial": "b",
+										"number": "1303",
+										"description": "Mental functions that produce the urge to consume substances, including substances that can be abused.",
+										"subCat": []
+									},
+									{
+										"catName": "Impulse control",
+										"initial": "b",
+										"number": "1304",
+										"description": "Mental functions that regulate and resist sudden intense urges to do something.",
+										"subCat": []
+									},
+									{
+										"catName": "Energy and drive functions, other specified",
+										"initial": "b",
+										"number": "1308",
+										"description": "",
+										"subCat": []
+									},
+									{
+										"catName": "Energy and drive functions, unspecified",
+										"initial": "b",
+										"number": "1309",
+										"description": "",
+										"subCat": []
+									}
+								]
+							},
+							{
+								"catName": "Sleep functions",
+								"initial": "b",
+								"number": "134",
+								"description": "",
+								"subCat": [
+									{
+										"catName": "Amount of sleep",
+										"initial": "b",
+										"number": "1340",
+										"description": "",
+										"subCat": []
+									},
+									{
+										"catName": "Onset of sleep",
+										"initial": "b",
+										"number": "1341",
+										"description": "",
+										"subCat": []
+									},
+									{
+										"catName": "Maintenance of sleep",
+										"initial": "b",
+										"number": "1342",
+										"description": "",
+										"subCat": []
+									},
+									{
+										"catName": "Quality of sleep",
+										"initial": "b",
+										"number": "1343",
+										"description": "",
+										"subCat": []
+									},
+									{
+										"catName": "Functions involving the sleep cycle",
+										"initial": "b",
+										"number": "1344",
+										"description": "",
+										"subCat": []
+									},
+									{
+										"catName": "Sleep functions, other specified",
+										"initial": "b",
+										"number": "1348",
+										"description": "",
+										"subCat": []
+									},
+									{
+										"catName": "Sleep functions, unspecified",
+										"initial": "b",
+										"number": "1349",
+										"description": "",
+										"subCat": []
+									}
+								]
+							},
+							{
+								"catName": "Global mental functions, other specified and unspecified",
+								"initial": "b",
+								"number": "139",
+								"description": "",
+								"subCat": []
+							}
+						]
+					},
+					{
+						"catName": "Specific mental functions",
+						"initial": "b",
+						"number": "140-189",
+						"description": "",
+						"subCat": [
+							{
+								"catName": "Attention functions",
+								"initial": "b",
+								"number": "140",
+								"description": "",
+								"subCat": [
+									{
+										"catName": "Sustaining attention",
+										"initial": "b",
+										"number": "1400",
+										"description": "Mental functions that produce concentration for the period of time required.",
+										"subCat": []
+									},
+									{
+										"catName": "Shifting attention",
+										"initial": "b",
+										"number": "1401",
+										"description": "Mental functions that permit refocusing concentration from one stimulus to another.",
+										"subCat": []
+									},
+									{
+										"catName": "Dividing attention",
+										"initial": "b",
+										"number": "1402",
+										"description": "Mental functions that permit focusing on two or more stimuli at the same time.",
+										"subCat": []
+									},
+									{
+										"catName": "Sharing attention",
+										"initial": "b",
+										"number": "140",
+										"description": "Mental functions that permit focusing on the same stimulus by two or more people, such as a child and a caregiver both focusing on a toy.",
+										"subCat": []
+									},
+									{
+										"catName": "Attention functions, other specified",
+										"initial": "b",
+										"number": "1408",
+										"description": "",
+										"subCat": []
+									},
+									{
+										"catName": "Attention functions, unspecified",
+										"initial": "b",
+										"number": "1409",
+										"description": "",
+										"subCat": []
+									}
+								]
+							},
+							{
+								"catName": "Memory functions",
+								"initial": "b",
+								"number": "144",
+								"description": "",
+								"subCat": [
+									{
+										"catName": "Short-term memory",
+										"initial": "b",
+										"number": "1440",
+										"description": "Mental functions that produce a temporary, disruptable memory store of around 30 seconds duration from which information is lost if not consolidated into long-term memory.",
+										"subCat": []
+									},
+									{
+										"catName": "Long-term memory",
+										"initial": "b",
+										"number": "1441",
+										"description": "Mental functions that produce a memory system permitting the long-term storage of information from short-term memory and both autobiographical memory for past events and semantic memory for language and facts.",
+										"subCat": []
+									},
+									{
+										"catName": "Retrieval and processing of memory",
+										"initial": "b",
+										"number": "1442",
+										"description": "Specific mental functions of recalling information stored in long-term memory and bringing it into awareness.",
+										"subCat": []
+									},
+									{
+										"catName": "Working memory",
+										"initial": "b",
+										"number": "144",
+										"description": "Mental functions that compare and process information retrieved from both short-term and long-term memory.",
+										"subCat": []
+									},
+									{
+										"catName": "Memory functions, other specified",
+										"initial": "b",
+										"number": "1448",
+										"description": "",
+										"subCat": []
+									},
+									{
+										"catName": "Memory functions, unspecified",
+										"initial": "b",
+										"number": "1449",
+										"description": "",
+										"subCat": []
+									}
+								]
+							},
+							{
+								"catName": "Psychomotor functions",
+								"initial": "b",
+								"number": "147",
+								"description": "",
+								"subCat": [
+									{
+										"catName": "Psychomotor control",
+										"initial": "b",
+										"number": "1470",
+										"description": "Mental functions that regulate the speed of behaviour or response time that involves both motor and psychological components, such as in disruption of control producing psychomotor retardation (moving and speaking slowly; decrease in gesturing and spontaneity) or psychomotor excitement (excessive behavioural and cognitive activity, usually nonproductive and often in response to inner tension as in toe-tapping, hand-wringing, agitation, or restlessness).",
+										"subCat": []
+									},
+									{
+										"catName": "Quality of psychomotor functions",
+										"initial": "b",
+										"number": "1471",
+										"description": "Mental functions that produce nonverbal behaviour in the proper sequence and character of its subcomponents, such as hand and eye coordination, or gait.",
+										"subCat": []
+									},
+									{
+										"catName": "Psychomotor functions, other specified",
+										"initial": "b",
+										"number": "1478",
+										"description": "",
+										"subCat": []
+									},
+									{
+										"catName": "Psychomotor functions, unspecified",
+										"initial": "b",
+										"number": "1479",
+										"description": "",
+										"subCat": []
+									}
+								]
+							},
+							{
+								"catName": "Emotional functions",
+								"initial": "b",
+								"number": "152",
+								"description": "",
+								"subCat": [
+									{
+										"catName": "Appropriateness of emotion",
+										"initial": "b",
+										"number": "1520",
+										"description": "",
+										"subCat": []
+									},
+									{
+										"catName": "Regulation of emotion",
+										"initial": "b",
+										"number": "1521",
+										"description": "",
+										"subCat": []
+									},
+									{
+										"catName": "Range of emotion",
+										"initial": "b",
+										"number": "1522",
+										"description": "",
+										"subCat": []
+									},
+									{
+										"catName": "Emotional functions, other specified",
+										"initial": "b",
+										"number": "1528",
+										"description": "",
+										"subCat": []
+									},
+									{
+										"catName": "Emotional functions, unspecified",
+										"initial": "b",
+										"number": "1529",
+										"description": "",
+										"subCat": []
+									}
+								]
+							},
+							{
+								"catName": "Perceptual functions",
+								"initial": "b",
+								"number": "156",
+								"description": "",
+								"subCat": [
+									{
+										"catName": "Auditory perception",
+										"initial": "b",
+										"number": "1560",
+										"description": "Mental functions involved in discriminating sounds, tones, pitches and other acoustic stimuli.",
+										"subCat": []
+									},
+									{
+										"catName": "Visual perception",
+										"initial": "b",
+										"number": "1561",
+										"description": "Mental functions involved in discriminating shape, size, colour and other ocular stimuli.",
+										"subCat": []
+									},
+									{
+										"catName": "Olfactory perception",
+										"initial": "b",
+										"number": "1562",
+										"description": "Mental functions involved in distinguishing differences in smells.",
+										"subCat": []
+									},
+									{
+										"catName": "Gustatory perception",
+										"initial": "b",
+										"number": "1563",
+										"description": "Mental functions involved in distinguishing differences in tastes, such as sweet, sour, salty and bitter stimuli, detected by the tongue.",
+										"subCat": []
+									},
+									{
+										"catName": "Tactile perception",
+										"initial": "b",
+										"number": "1564",
+										"description": "Mental functions involved in distinguishing differences in texture, such as rough or smooth stimuli, detected by touch.",
+										"subCat": []
+									},
+									{
+										"catName": "Visuospatial perception",
+										"initial": "b",
+										"number": "1565",
+										"description": "Mental function involved in distinguishing by sight the relative position of objects in the environment or in relation to oneself. \r Exclusions: orientation to objects (b1143)",
+										"subCat": []
+									},
+									{
+										"catName": "Perceptual functions, other specified",
+										"initial": "b",
+										"number": "1568",
+										"description": "",
+										"subCat": []
+									},
+									{
+										"catName": "Perceptual functions, unspecified",
+										"initial": "b",
+										"number": "1569",
+										"description": "",
+										"subCat": []
+									}
+								]
+							},
+							{
+								"catName": "Thought functions",
+								"initial": "b",
+								"number": "160",
+								"description": "",
+								"subCat": [
+									{
+										"catName": "Pace of thought",
+										"initial": "b",
+										"number": "1600",
+										"description": "Mental functions that govern speed of the thinking process.",
+										"subCat": []
+									},
+									{
+										"catName": "Form of thought",
+										"initial": "b",
+										"number": "1601",
+										"description": "Mental functions that organize the thinking process as to its coherence and logic. Inclusions: impairments of ideational perseveration, tangentiality and circumstantiality",
+										"subCat": []
+									},
+									{
+										"catName": "Content of thought",
+										"initial": "b",
+										"number": "1602",
+										"description": "Mental functions consisting of the ideas that are present in the thinking process and what is being conceptualized. Inclusions: impairments of delusions, overvalued ideas and somatization",
+										"subCat": []
+									},
+									{
+										"catName": "Control of thought",
+										"initial": "b",
+										"number": "1603",
+										"description": "Mental functions consisting of the ideas that are present in the thinking process and what is being conceptualized. Inclusions: impairments of delusions, overvalued ideas and somatization",
+										"subCat": []
+									},
+									{
+										"catName": "Thought functions, other specified",
+										"initial": "b",
+										"number": "1608",
+										"description": "",
+										"subCat": []
+									},
+									{
+										"catName": "Thought functions, unspecified",
+										"initial": "b",
+										"number": "1609",
+										"description": "",
+										"subCat": []
+									}
+								]
+							},
+							{
+								"catName": "Higher-level cognitive functions",
+								"initial": "b",
+								"number": "164",
+								"description": "",
+								"subCat": [
+									{
+										"catName": "Abstraction",
+										"initial": "b",
+										"number": "1640",
+										"description": "Mental functions of creating general ideas, qualities or characteristics out of, and distinct from, concrete realities, specific objects or actual instances.",
+										"subCat": []
+									},
+									{
+										"catName": "Organization and planning",
+										"initial": "b",
+										"number": "1641",
+										"description": "Mental functions of coordinating parts into a whole, of systematizing; the mental function involved in developing a method of proceeding or acting.",
+										"subCat": []
+									},
+									{
+										"catName": "Time management",
+										"initial": "b",
+										"number": "1642",
+										"description": "Mental functions of ordering events in chronological sequence, allocating amounts of time to events and activities.",
+										"subCat": []
+									},
+									{
+										"catName": "Cognitive flexibility",
+										"initial": "b",
+										"number": "1643",
+										"description": "Mental functions of changing strategies, or shifting mental sets, especially as involved in problem-solving.",
+										"subCat": []
+									},
+									{
+										"catName": "Insight",
+										"initial": "b",
+										"number": "1644",
+										"description": "",
+										"subCat": []
+									},
+									{
+										"catName": "Judgement",
+										"initial": "b",
+										"number": "1645",
+										"description": "Mental functions involved in discriminating between and evaluating different options, such as those involved in forming an opinion.",
+										"subCat": []
+									},
+									{
+										"catName": "Problem Solving",
+										"initial": "b",
+										"number": "1646",
+										"description": "Mental functions of identifying, analysing, and integrating incongruent or conflicting information into a solution.",
+										"subCat": []
+									},
+									{
+										"catName": "Higher-level cognitive functions, other specified",
+										"initial": "b",
+										"number": "1648",
+										"description": "",
+										"subCat": []
+									},
+									{
+										"catName": "Higher-level cognitive functions, unspecified",
+										"initial": "b",
+										"number": "1649",
+										"description": "",
+										"subCat": []
+									}
+								]
+							},
+							{
+								"catName": "Mental functions of language",
+								"initial": "b",
+								"number": "167",
+								"description": "",
+								"subCat": [
+									{
+										"catName": "Reception of language",
+										"initial": "b",
+										"number": "1670",
+										"description": "Specific mental functions of decoding messages in spoken, written or other forms, such as sign language, to obtain their meaning.",
+										"subCat": [
+											{
+												"catName": "Reception of spoken language",
+												"initial": "b",
+												"number": "16700",
+												"description": "Mental functions of decoding spoken messages to obtain their meaning.",
+												"subCat": []
+											},
+											{
+												"catName": "Reception of written language",
+												"initial": "b",
+												"number": "16701",
+												"description": "Mental functions of decoding written messages to obtain their meaning.",
+												"subCat": []
+											},
+											{
+												"catName": "Reception of sign language",
+												"initial": "b",
+												"number": "16702",
+												"description": "Mental functions of decoding messages in languages that use signs made by hands and other movements, in order to obtain their meaning.",
+												"subCat": []
+											},
+											{
+												"catName": "Reception of body language",
+												"initial": "b",
+												"number": "16703",
+												"description": "Mental functions of decoding messages in body gestures made by hands or other movements, in order to obtain their meaning.",
+												"subCat": []
+											},
+											{
+												"catName": "Reception of language, other specified",
+												"initial": "b",
+												"number": "16708",
+												"description": "",
+												"subCat": []
+											},
+											{
+												"catName": "Reception of language, unspecified",
+												"initial": "b",
+												"number": "16709",
+												"description": "",
+												"subCat": []
+											}
+										]
+									},
+									{
+										"catName": "Expression of language",
+										"initial": "b",
+										"number": "1671",
+										"description": "Specific mental functions necessary to produce meaningful messages in spoken, written, signed or other forms of language.",
+										"subCat": [
+											{
+												"catName": "Expression of spoken language",
+												"initial": "b",
+												"number": "16710",
+												"description": "Mental functions necessary to produce meaningful spoken messages.",
+												"subCat": []
+											},
+											{
+												"catName": "Expression of written language",
+												"initial": "b",
+												"number": "16711",
+												"description": "Mental functions necessary to produce meaningful written messages.",
+												"subCat": []
+											},
+											{
+												"catName": "Expression of sign language",
+												"initial": "b",
+												"number": "16712",
+												"description": "Mental functions to produce meaningful messages in languages that use signs made by hands and other movements.",
+												"subCat": []
+											},
+											{
+												"catName": "Expression of body language",
+												"initial": "b",
+												"number": "16713",
+												"description": "Mental functions necessary to produce messages using body gestures made by hands or other movements.",
+												"subCat": []
+											},
+											{
+												"catName": "Expression of language, other specified",
+												"initial": "b",
+												"number": "16718",
+												"description": "",
+												"subCat": []
+											},
+											{
+												"catName": "Expression of language, unspecified",
+												"initial": "b",
+												"number": "16719",
+												"description": "",
+												"subCat": []
+											}
+										]
+									},
+									{
+										"catName": "Integrative language functions",
+										"initial": "b",
+										"number": "1672",
+										"description": "Mental functions that organize semantic and symbolic meaning, grammatical structure and ideas for the production of messages in spoken, written or other forms of language.",
+										"subCat": []
+									},
+									{
+										"catName": "Mental functions of language, other specified",
+										"initial": "b",
+										"number": "1678",
+										"description": "",
+										"subCat": []
+									},
+									{
+										"catName": "Mental functions of language",
+										"initial": "b",
+										"number": "1679",
+										"description": "Mental functions of language, unspecified",
+										"subCat": []
+									}
+								]
+							},
+							{
+								"catName": "Calculation functions",
+								"initial": "b",
+								"number": "172",
+								"description": "",
+								"subCat": [
+									{
+										"catName": "Simple calculation",
+										"initial": "b",
+										"number": "1720",
+										"description": "Mental functions of computing with numbers, such as addition, subtraction, multiplication and division.",
+										"subCat": []
+									},
+									{
+										"catName": "Complex calculation",
+										"initial": "b",
+										"number": "1721",
+										"description": "Mental functions of translating word problems into arithmetic procedures, translating mathematical formulas into arithmetic procedures, and other complex manipulations involving numbers.",
+										"subCat": []
+									},
+									{
+										"catName": "Calculation functions, other specified",
+										"initial": "b",
+										"number": "1728",
+										"description": "",
+										"subCat": []
+									},
+									{
+										"catName": "Calculation functions, unspecified",
+										"initial": "b",
+										"number": "1729",
+										"description": "",
+										"subCat": []
+									}
+								]
+							},
+							{
+								"catName": "Mental function of sequencing complex movements",
+								"initial": "b",
+								"number": "176",
+								"description": "",
+								"subCat": []
+							},
+							{
+								"catName": "Experience of self and time functions",
+								"initial": "b",
+								"number": "180",
+								"description": "",
+								"subCat": [
+									{
+										"catName": "Experience of self",
+										"initial": "b",
+										"number": "1800",
+										"description": "",
+										"subCat": []
+									},
+									{
+										"catName": "Body image",
+										"initial": "b",
+										"number": "1801",
+										"description": "",
+										"subCat": []
+									},
+									{
+										"catName": "Experience of time",
+										"initial": "b",
+										"number": "1802",
+										"description": "",
+										"subCat": []
+									},
+									{
+										"catName": "Experience of self and time functions, other specified",
+										"initial": "b",
+										"number": "1808",
+										"description": "",
+										"subCat": []
+									},
+									{
+										"catName": "Experience of self and time functions, unspecified",
+										"initial": "b",
+										"number": "1809",
+										"description": "",
+										"subCat": []
+									}
+								]
+							},
+							{
+								"catName": "Specific mental functions, other specified and unspecified",
+								"initial": "b",
+								"number": "189",
+								"description": "",
+								"subCat": []
+							}
+						]
+					},
+					{
+						"catName": "Mental functions, other specified",
+						"initial": "b",
+						"number": "198",
+						"description": "",
+						"subCat": [
+							{}
+						]
+					},
+					{
+						"catName": "Mental functions, unspecified",
+						"initial": "b",
+						"number": "199",
+						"description": "",
+						"subCat": [
+							{}
+						]
+					}
+				]
+			},
+			{
+				"catName": "SENSORY FUNCTIONS AND PAIN",
+				"initial": "b",
+				"number": "2",
+				"description": "",
+				"subCat": [
+					{
+						"catName": "Seeing and related functions",
+						"initial": "b",
+						"number": "210-229",
+						"description": "",
+						"subCat": [
+							{
+								"catName": "Seeing functions",
+								"initial": "b",
+								"number": "210",
+								"description": "",
+								"subCat": [
+									{
+										"catName": "Visual acuity functions",
+										"initial": "b",
+										"number": "2100",
+										"description": "",
+										"subCat": [
+											{
+												"catName": "Binocular acuity of distant vision",
+												"initial": "b",
+												"number": "21000",
+												"description": "",
+												"subCat": []
+											},
+											{
+												"catName": "Monocular acuity of distant vision",
+												"initial": "b",
+												"number": "21001",
+												"description": "",
+												"subCat": []
+											},
+											{
+												"catName": "Binocular acuity of near vision",
+												"initial": "b",
+												"number": "21002",
+												"description": "",
+												"subCat": []
+											},
+											{
+												"catName": "Monocular acuity of near vision",
+												"initial": "b",
+												"number": "21003",
+												"description": "",
+												"subCat": []
+											},
+											{
+												"catName": "Visual acuity functions, other specified",
+												"initial": "b",
+												"number": "21008",
+												"description": "",
+												"subCat": []
+											},
+											{
+												"catName": "Visual acuity functions, unspecified",
+												"initial": "b",
+												"number": "21009",
+												"description": "",
+												"subCat": []
+											}
+										]
+									},
+									{
+										"catName": "Visual field functions",
+										"initial": "b",
+										"number": "2101",
+										"description": "",
+										"subCat": []
+									},
+									{
+										"catName": "Quality of vision",
+										"initial": "b",
+										"number": "2102",
+										"description": "",
+										"subCat": [
+											{
+												"catName": "Light sensitivity",
+												"initial": "b",
+												"number": "21020",
+												"description": "",
+												"subCat": []
+											},
+											{
+												"catName": "Colour vision",
+												"initial": "b",
+												"number": "21021",
+												"description": "",
+												"subCat": []
+											},
+											{
+												"catName": "Contrast sensitivity",
+												"initial": "b",
+												"number": "21022",
+												"description": "",
+												"subCat": []
+											},
+											{
+												"catName": "Visual picture quality",
+												"initial": "b",
+												"number": "21023",
+												"description": "",
+												"subCat": []
+											},
+											{
+												"catName": "Quality of vision, other specified",
+												"initial": "b",
+												"number": "21028",
+												"description": "",
+												"subCat": []
+											},
+											{
+												"catName": "Quality of vision, unspecified",
+												"initial": "b",
+												"number": "21029",
+												"description": "",
+												"subCat": []
+											}
+										]
+									},
+									{
+										"catName": "Seeing functions, other specified",
+										"initial": "b",
+										"number": "2108",
+										"description": "",
+										"subCat": []
+									},
+									{
+										"catName": "Seeing functions, unspecified",
+										"initial": "b",
+										"number": "2109",
+										"description": "",
+										"subCat": []
+									}
+								]
+							},
+							{
+								"catName": "Functions of structures adjoining the eye",
+								"initial": "b",
+								"number": "215",
+								"description": "",
+								"subCat": [
+									{
+										"catName": "Functions of internal muscles of the eye",
+										"initial": "b",
+										"number": "2150",
+										"description": "",
+										"subCat": []
+									},
+									{
+										"catName": "Functions of the eyelid",
+										"initial": "b",
+										"number": "2151",
+										"description": "",
+										"subCat": []
+									},
+									{
+										"catName": "Functions of external muscles of the eye",
+										"initial": "b",
+										"number": "2152",
+										"description": "",
+										"subCat": []
+									},
+									{
+										"catName": "Functions of lachrymal glands",
+										"initial": "b",
+										"number": "2153",
+										"description": "",
+										"subCat": []
+									},
+									{
+										"catName": "Functions of structures adjoining the eye, other specified8",
+										"initial": "b",
+										"number": "2158",
+										"description": "",
+										"subCat": []
+									},
+									{
+										"catName": "Functions of structures adjoining the eye, unspecified",
+										"initial": "b",
+										"number": "2159",
+										"description": "",
+										"subCat": []
+									}
+								]
+							},
+							{
+								"catName": "Sensations associated with the eye and adjoining structures",
+								"initial": "b",
+								"number": "220",
+								"description": "",
+								"subCat": []
+							},
+							{
+								"catName": "Seeing and related functions, other specified and unspecified",
+								"initial": "b",
+								"number": "229",
+								"description": "",
+								"subCat": []
+							}
+						]
+					},
+					{
+						"catName": "Hearing and vestibular functions",
+						"initial": "b",
+						"number": "230-249",
+						"description": "",
+						"subCat": [
+							{
+								"catName": "Hearing functions",
+								"initial": "b",
+								"number": "230",
+								"description": "",
+								"subCat": [
+									{
+										"catName": "Sound detection",
+										"initial": "b",
+										"number": "2300",
+										"description": "",
+										"subCat": []
+									},
+									{
+										"catName": "Sound discrimination",
+										"initial": "b",
+										"number": "2301",
+										"description": "",
+										"subCat": []
+									},
+									{
+										"catName": "Localization of sound source",
+										"initial": "b",
+										"number": "2302",
+										"description": "",
+										"subCat": []
+									},
+									{
+										"catName": "Lateralization of sound",
+										"initial": "b",
+										"number": "2303",
+										"description": "",
+										"subCat": []
+									},
+									{
+										"catName": "Speech discrimination",
+										"initial": "b",
+										"number": "2304",
+										"description": "",
+										"subCat": []
+									},
+									{
+										"catName": "Hearing functions, other specified",
+										"initial": "b",
+										"number": "2308",
+										"description": "",
+										"subCat": []
+									},
+									{
+										"catName": "Hearing functions, unspecified",
+										"initial": "b",
+										"number": "2309",
+										"description": "",
+										"subCat": []
+									}
+								]
+							},
+							{
+								"catName": "Vestibular functions",
+								"initial": "b",
+								"number": "235",
+								"description": "",
+								"subCat": [
+									{
+										"catName": "",
+										"initial": "b",
+										"number": "235",
+										"description": "",
+										"subCat": []
+									},
+									{
+										"catName": "",
+										"initial": "b",
+										"number": "235",
+										"description": "",
+										"subCat": []
+									},
+									{
+										"catName": "",
+										"initial": "b",
+										"number": "235",
+										"description": "",
+										"subCat": []
+									},
+									{
+										"catName": "",
+										"initial": "b",
+										"number": "235",
+										"description": "",
+										"subCat": []
+									},
+									{
+										"catName": "",
+										"initial": "b",
+										"number": "235",
+										"description": "",
+										"subCat": []
+									}
+								]
+							},
+							{
+								"catName": "Sensations associated with hearing and vestibular function",
+								"initial": "b",
+								"number": "240",
+								"description": "",
+								"subCat": [
+									{}
+								]
+							},
+							{
+								"catName": "Hearing and vestibular functions, other specified and unspecified",
+								"initial": "b",
+								"number": "249",
+								"description": "",
+								"subCat": [
+									{}
+								]
+							}
+						]
+					},
+					{
+						"catName": "Additional sensory functions",
+						"initial": "b",
+						"number": "250-279",
+						"description": "",
+						"subCat": [
+							{}
+						]
+					},
+					{
+						"catName": "Pain",
+						"initial": "b",
+						"number": "280-289",
+						"description": "",
+						"subCat": [
+							{}
+						]
+					},
+					{
+						"catName": "Sensory functions and pain, other specified",
+						"initial": "b",
+						"number": "298",
+						"description": "",
+						"subCat": [
+							{}
+						]
+					},
+					{
+						"catName": "Sensory functions and pain, other specified unspecified",
+						"initial": "b",
+						"number": "299",
+						"description": "",
+						"subCat": [
+							{}
+						]
+					}
+				]
+			},
+			{
+				"catName": "VOICE AND SPEECH FUNCTIONS",
+				"initial": "b",
+				"number": "3",
+				"description": "",
+				"subCat": [
+					{}
+				]
+			},
+			{
+				"catName": "FUNCTIONS OF THE CARDIOVASCULAR, HAEMATOLOGICAL, IMMUNOLOGICAL AND RESPIRATORY SYSTEMS",
+				"initial": "b",
+				"number": "4",
+				"description": "",
+				"subCat": [
+					{}
+				]
+			},
+			{
+				"catName": "FUNCTIONS OF THE DIGESTIVE, METABOLIC AND ENDOCRINE SYSTEMS",
+				"initial": "b",
+				"number": "5",
+				"description": "",
+				"subCat": [
+					{}
+				]
+			},
+			{
+				"catName": "GENITOURINARY AND REPRODUCTIVE FUNCTIONS",
+				"initial": "b",
+				"number": "6",
+				"description": "",
+				"subCat": [
+					{}
+				]
+			},
+			{
+				"catName": "NEUROMUSCULOSKELETAL AND MOVEMENT-RELATED FUNCTIONS",
+				"initial": "b",
+				"number": "7",
+				"description": "",
+				"subCat": [
+					{}
+				]
+			},
+			{
+				"catName": "FUNCTIONS OF THE SKIN AND RELATED STRUCTURES",
+				"initial": "b",
+				"number": "8",
+				"description": "",
+				"subCat": [
+					{}
+				]
+			}
+		]
+	},
+	{
+		"catName": "ACTIVITIES AND PARTICIPATION",
+		"initial": "d",
+		"number": "",
+		"description": "",
+		"subCat": [
+			{
+				"catName": "LEARNING AND APPLYING KNOWLEDGE",
+				"initial": "d",
+				"number": "1",
+				"description": "",
+				"subCat": [
+					{}
+				]
+			},
+			{
+				"catName": "GENERAL TASKS AND DEMANDS",
+				"initial": "d",
+				"number": "2",
+				"description": "",
+				"subCat": [
+					{}
+				]
+			},
+			{
+				"catName": "COMMUNICATION",
+				"initial": "d",
+				"number": "3",
+				"description": "",
+				"subCat": [
+					{}
+				]
+			},
+			{
+				"catName": "MOBILITY",
+				"initial": "d",
+				"number": "4",
+				"description": "",
+				"subCat": [
+					{}
+				]
+			},
+			{
+				"catName": "SELF-CARE",
+				"initial": "d",
+				"number": "5",
+				"description": "",
+				"subCat": [
+					{}
+				]
+			},
+			{
+				"catName": "DOMESTIC LIFE",
+				"initial": "d",
+				"number": "6",
+				"description": "",
+				"subCat": [
+					{}
+				]
+			},
+			{
+				"catName": "INTERPERSONAL INTERACTIONS AND RELATIONSHIPS",
+				"initial": "d",
+				"number": "7",
+				"description": "",
+				"subCat": [
+					{}
+				]
+			},
+			{
+				"catName": "MAJOR LIFE AREAS",
+				"initial": "d",
+				"number": "8",
+				"description": "",
+				"subCat": [
+					{}
+				]
+			},
+			{
+				"catName": "COMMUNITY, SOCIAL AND CIVIC LIFE",
+				"initial": "d",
+				"number": "9",
+				"description": "",
+				"subCat": [
+					{}
+				]
+			}
+		]
+	},
+	{
+		"catName": "ENVIRONMENTAL FACTORS",
+		"initial": "e",
+		"number": "",
+		"description": "",
+		"subCat": [
+			{
+				"catName": "PRODUCTS AND TECHNOLOGY",
+				"initial": "e",
+				"number": "1",
+				"description": "",
+				"subCat": [
+					{}
+				]
+			},
+			{
+				"catName": "NATURAL ENVIRONMENT AND HUMAN-MADE CHANGES TO ENVIRONMENT",
+				"initial": "e",
+				"number": "2",
+				"description": "",
+				"subCat": [
+					{}
+				]
+			},
+			{
+				"catName": "SUPPORT AND RELATIONSHIPS",
+				"initial": "e",
+				"number": "3",
+				"description": "",
+				"subCat": [
+					{}
+				]
+			},
+			{
+				"catName": "ATTITUDESS",
+				"initial": "e",
+				"number": "4",
+				"description": "",
+				"subCat": [
+					{}
+				]
+			},
+			{
+				"catName": "SERVICES, SYSTEMS AND POLICIES",
+				"initial": "e",
+				"number": "5",
+				"description": "",
+				"subCat": [
+					{}
+				]
+			}
+		]
+	},
+	{
+		"catName": "BODY STRUCTURES",
+		"initial": "s",
+		"number": "",
+		"description": "",
+		"subCat": [
+			{
+				"catName": "STRUCTURES OF THE NERVOUS SYSTEM",
+				"initial": "s",
+				"number": "1",
+				"description": "",
+				"subCat": [
+					{}
+				]
+			},
+			{
+				"catName": "THE EYE, EAR AND RELATED STRUCTURES",
+				"initial": "s",
+				"number": "2",
+				"description": "",
+				"subCat": [
+					{}
+				]
+			},
+			{
+				"catName": "STRUCTURES INVOLVED IN VOICE AND SPEECH",
+				"initial": "s",
+				"number": "3",
+				"description": "",
+				"subCat": [
+					{}
+				]
+			},
+			{
+				"catName": "STRUCTURES OF THE CARDIOVASCULAR, IMMUNOLOGICAL AND RESPIRATORY SYSTEMS",
+				"initial": "s",
+				"number": "4",
+				"description": "",
+				"subCat": [
+					{}
+				]
+			},
+			{
+				"catName": "STRUCTURES RELATED TO THE DIGESTIVE, METABOLIC AND ENDOCRINE SYSTEMS",
+				"initial": "s",
+				"number": "5",
+				"description": "",
+				"subCat": [
+					{}
+				]
+			},
+			{
+				"catName": "STRUCTURES RELATED TO THE GENITOURINARY AND REPRODUCTIVE SYSTEMS",
+				"initial": "s",
+				"number": "6",
+				"description": "",
+				"subCat": [
+					{}
+				]
+			},
+			{
+				"catName": "STRUCTURES RELATED TO MOVEMENT",
+				"initial": "s",
+				"number": "7",
+				"description": "",
+				"subCat": [
+					{}
+				]
+			},
+			{
+				"catName": "SKIN AND RELATED STRUCTURES",
+				"initial": "s",
+				"number": "8",
+				"description": "",
+				"subCat": [
+					{}
+				]
+			}
+		]
+	}
+]

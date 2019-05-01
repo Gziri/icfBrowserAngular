@@ -1,0 +1,236 @@
+<mat-card>
+
+  <mat-card class="chosenArrayBox">
+    <ng-container>
+      <mat-card *ngFor="let item of chosenArray" class="chosenArrayClass">
+        <mat-card-title>
+          {{item.initial}}{{item.number}}
+        </mat-card-title>
+        <mat-card-subtitle>
+          {{item.catName}}
+        </mat-card-subtitle>
+        <mat-card-actions>
+          <button mat-stroked-button (click)="deleteArrayItem(item)" class="mt-buttons">
+            <i class="material-icons">
+              delete
+            </i>
+          </button>
+          <button mat-stroked-button (click)="copyToClipboard(item.initial+item.number)" class="mt-buttons">
+            <i class="material-icons">
+              file_copy
+            </i>
+          </button>
+        </mat-card-actions>
+      </mat-card>
+    </ng-container>
+    <mat-card-actions *ngIf="chosenArray.length>0">
+      <button mat-stroked-button (click)="clearChosenArray()" class="mt-buttons">
+        <i class="material-icons">
+          delete
+        </i>
+      </button>
+    </mat-card-actions>
+  </mat-card>
+
+
+  <mat-accordion>
+
+    <!-- 1 Class -->
+    <ng-container style="white-space:pre-wrap">
+      <mat-expansion-panel *ngFor="let firstclass of this.data;" class="right-aligned-header">
+        <mat-expansion-panel-header class="firstpanel">
+          <mat-panel-title>
+            {{firstclass.initial}} - {{firstclass.catName}}
+          </mat-panel-title>
+          <mat-panel-description>
+          </mat-panel-description>
+        </mat-expansion-panel-header>
+        <mat-card *ngIf='firstclass.description!==""'>
+          {{firstclass.description}}
+          <mat-card-actions>
+            <button mat-button class="mt-buttons" (click)="copyToClipboard(firstclass.description);">
+              <i class="material-icons">
+                file_copy
+              </i>
+            </button>
+
+          </mat-card-actions>
+        </mat-card>
+
+        <!-- 2 Class -->
+        <ng-container>
+          <mat-accordion>
+            <mat-expansion-panel *ngFor="let secondclass of firstclass.subCat;" class="secondlass"
+              (opened)="panelOpenState = secondclass.initial+secondclass.number">
+              <mat-expansion-panel-header class="secondpanel">
+                <mat-panel-title>
+                  {{secondclass.catName}}
+                </mat-panel-title>
+                <mat-panel-description>
+                  <button mat-button class="mt-buttons"
+                    (click)="copyToClipboard(secondclass.initial+secondclass.number);$event.stopPropagation();">
+                    {{secondclass.initial}} {{secondclass.number}}</button>
+                </mat-panel-description>
+              </mat-expansion-panel-header>
+              <mat-card *ngIf='secondclass.description!==""'>
+                {{secondclass.description}}
+                <mat-card-actions>
+                  <button mat-button class="mt-buttons" (click)="copyToClipboard(secondclass.description);">
+                    <i class="material-icons">
+                      file_copy
+                    </i>
+                  </button>
+                </mat-card-actions>
+              </mat-card>
+
+              <!-- 3 Class -->
+              <ng-container *ngIf='secondclass.subCat!==""'>
+                <mat-accordion>
+                  <mat-expansion-panel *ngFor="let thirdclass of secondclass.subCat;" class="thirdclass"
+                    [disabled]='thirdclass.subCat=="" && thirdclass.description==""'>
+                    <mat-expansion-panel-header class="thirdpanel">
+                      <mat-panel-title>
+                        {{thirdclass.catName}}
+                      </mat-panel-title>
+                      <mat-panel-description>
+                        <button mat-button class="mt-buttons"
+                          (click)="copyToClipboard(thirdclass.initial+thirdclass.number);$event.stopPropagation();">
+                          {{thirdclass.initial}} {{thirdclass.number}} </button>
+                        <button mat-stroked-button (click)="addToArray(thirdclass);$event.stopPropagation()">
+                          <i class="material-icons">
+                            add
+                          </i>
+                        </button>
+                      </mat-panel-description>
+
+                    </mat-expansion-panel-header>
+                    <mat-card *ngIf='thirdclass.description!==""'>
+                      {{thirdclass.description}}
+                      <mat-card-actions>
+                        <button mat-button class="mt-buttons" (click)="copyToClipboard(thirdclass.description);">
+                          <i class="material-icons">
+                            file_copy
+                          </i>
+                        </button>
+                      </mat-card-actions>
+                    </mat-card>
+
+                    <!-- 4 Class -->
+                    <ng-container
+                      *ngIf='(secondclass.initial+secondclass.number).includes(panelOpenState) && thirdclass.subCat!==""'>
+                      <mat-accordion>
+                        <mat-expansion-panel *ngFor="let fourthclass of thirdclass.subCat" class="fourthclass"
+                          [disabled]='fourthclass.subCat=="" && fourthclass.description==""'
+                          (opened)="panelOpenState2 = fourthclass.initial+fourthclass.number">
+                          <mat-expansion-panel-header class="fourthpanel">
+                            <mat-panel-title>
+                              {{fourthclass.catName}}
+                            </mat-panel-title>
+                            <mat-panel-description>
+                              <button mat-button class="mt-buttons"
+                                (click)="copyToClipboard(fourthclass.initial+fourthclass.number);$event.stopPropagation();">
+                                {{fourthclass.initial}} {{fourthclass.number}}</button>
+                              <button mat-stroked-button (click)="addToArray(fourthclass);$event.stopPropagation()">
+                                <i class="material-icons">
+                                  add
+                                </i>
+                              </button>
+                            </mat-panel-description>
+                          </mat-expansion-panel-header>
+                          <mat-card *ngIf='fourthclass.description!==""'>
+                            {{fourthclass.description}}
+                            <mat-card-actions>
+                              <button mat-button class="mt-buttons" (click)="copyToClipboard(fourthclass.description);">
+                                <i class="material-icons">
+                                  file_copy
+                                </i>
+                              </button>
+                            </mat-card-actions>
+                          </mat-card>
+
+                          <!-- 5 Class -->
+                          <ng-container *ngIf='fourthclass.subCat!==""'>
+                            <mat-accordion>
+                              <mat-expansion-panel *ngFor="let fifthclass of fourthclass.subCat"
+                                [disabled]='fifthclass.subCat=="" && fifthclass.description==""' class="fifthclass">
+                                <mat-expansion-panel-header class="fifthpanel">
+                                  <mat-panel-title>
+                                    {{fifthclass.catName}}
+                                  </mat-panel-title>
+                                  <mat-panel-description>
+                                    <button mat-button class="mt-buttons"
+                                      (click)="copyToClipboard(fifthclass.initial+fifthclass.number);$event.stopPropagation();">
+                                      {{fifthclass.initial}} {{fifthclass.number}}</button>
+                                    <button mat-stroked-button
+                                      (click)="addToArray(fifthclass);$event.stopPropagation()">
+                                      <i class="material-icons">
+                                        add
+                                      </i>
+                                    </button>
+                                  </mat-panel-description>
+                                </mat-expansion-panel-header>
+                                <mat-card *ngIf='fifthclass.description!==""'>
+                                  {{fifthclass.description}}
+                                  <mat-card-actions>
+                                    <button mat-button class="mt-buttons"
+                                      (click)="copyToClipboard(fifthclass.description);">
+                                      <i class="material-icons">
+                                        file_copy
+                                      </i>
+                                    </button>
+                                  </mat-card-actions>
+                                </mat-card>
+
+                                <!-- 6 Class -->
+                                <ng-container
+                                  *ngIf='(fifthclass.initial+fifthclass.number).includes(panelOpenState2) && fifthclass.subCat!==""'>
+                                  <mat-accordion>
+                                    <mat-expansion-panel *ngFor="let sixthclass of fifthclass.subCat"
+                                      [disabled]='sixthclass.subCat=="" && sixthclass.description==""'
+                                      class="sixthclass" style="white-space:pre-wrap">
+                                      <mat-expansion-panel-header class="sixthpanel">
+                                        <mat-panel-title>
+                                          {{sixthclass.catName}}
+                                        </mat-panel-title>
+                                        <mat-panel-description>
+                                          <button mat-button class="mt-buttons"
+                                            (click)="copyToClipboard(sixthclass.initial+sixthclass.number);$event.stopPropagation();">
+                                            {{sixthclass.initial}} {{sixthclass.number}}</button>
+                                          <button mat-stroked-button
+                                            (click)="addToArray(sixthclass);$event.stopPropagation()">
+                                            <i class="material-icons">
+                                              add
+                                            </i>
+                                          </button>
+                                        </mat-panel-description>
+                                      </mat-expansion-panel-header>
+                                      <mat-card *ngIf='sixthclass.description!==""'>
+                                        {{sixthclass.description}}
+                                        <mat-card-actions>
+                                          <button mat-button class="mt-buttons"
+                                            (click)="copyToClipboard(sixthclass.description);">
+                                            <i class="material-icons">
+                                              file_copy
+                                            </i>
+                                          </button>
+                                        </mat-card-actions>
+                                      </mat-card>
+                                    </mat-expansion-panel>
+                                  </mat-accordion>
+                                </ng-container>
+                              </mat-expansion-panel>
+                            </mat-accordion>
+                          </ng-container>
+                        </mat-expansion-panel>
+                      </mat-accordion>
+                    </ng-container>
+                  </mat-expansion-panel>
+                </mat-accordion>
+              </ng-container>
+            </mat-expansion-panel>
+          </mat-accordion>
+        </ng-container>
+      </mat-expansion-panel>
+    </ng-container>
+  </mat-accordion>
+</mat-card>
