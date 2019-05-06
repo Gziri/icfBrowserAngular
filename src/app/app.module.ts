@@ -25,7 +25,12 @@ import { MatExpansionModule } from '@angular/material/expansion';
 import { MatButtonModule } from '@angular/material/button';
 import { MatGridListModule } from '@angular/material/grid-list';
 import { MatSnackBarModule } from '@angular/material/snack-bar';
-
+import { MatTooltipModule } from '@angular/material/tooltip';
+import { MatInputModule } from '@angular/material/input';
+import { FormsModule } from '@angular/forms';
+import { MatSelectModule } from '@angular/material/select';
+import { DragDropModule } from '@angular/cdk/drag-drop';
+import { MatDialogModule } from '@angular/material';
 
 @NgModule({
   declarations: [
@@ -55,7 +60,13 @@ import { MatSnackBarModule } from '@angular/material/snack-bar';
     MatButtonModule,
     MatGridListModule,
     MatSnackBarModule,
-    
+    MatTooltipModule,
+    MatInputModule,
+    FormsModule,
+    MatSelectModule,
+    DragDropModule,
+    MatDialogModule
+
   ],
   providers: [],
   bootstrap: [AppComponent]

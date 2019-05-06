@@ -11,7 +11,8 @@ html, body {
 
 body {
   margin: 0;
-  font-family: Roboto, "Helvetica Neue", sans-serif;
+  font-family: 'Montserrat', sans-serif !important;
+  font-family: 'Raleway', sans-serif !important;
 }
 
 .right-aligned-header>.mat-content {

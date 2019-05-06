@@ -1,0 +1,176 @@
+.right-aligned-header>.mat-content {
+    justify-content: left;
+}
+
+.mat-content>mat-panel-description {
+    flex: 0 1 auto;
+    padding-right: 35%;
+}
+
+/* .mat-button {
+    margin-right: 15%;
+    align-content: center !important;
+} */
+
+mat-card {
+    margin-top: 5px;
+    margin-bottom: 10px;
+    background-color: #4e4e4e
+}
+
+mat-expansion-panel {
+    margin-top: 5px;
+    margin-bottom: 8px;
+    background-color: #535353;
+    color: black
+}
+
+.secondlass {
+    background-color: #737373;
+    color: white;
+}
+
+.thirdclass {
+    background-color: #999999;
+    color: white;
+}
+
+.fourthclass {
+    background-color: #b3b3b3;
+    color: white;
+}
+
+.fifthclass {
+    background-color: #cccccc;
+    color: white;
+}
+
+.sixthclass {
+    background-color: #e6e6e6;
+    color: white;
+}
+
+/* mat-expansion-panel-header {
+    background-color: #474747 !important;
+} */
+
+.circle {
+    width: 25px;
+    height: 25px;
+    background: rgb(231, 216, 216);
+    -moz-border-radius: 12.5px;
+    -webkit-border-radius: 12.5px;
+    border-radius: 12.5px;
+    align-content: center
+}
+
+.sixthpanel {
+    background-color: #2f2f2f !important;
+}
+
+.fifthpanel {
+    background-color: #2f2f2f !important;
+}
+
+.fourthpanel {
+    background-color: #2f2f2f !important;
+}
+
+.thirdpanel {
+    background-color: #2f2f2f !important;
+}
+
+.secondpanel {
+    background-color: #2f2f2f !important;
+}
+
+.firstpanel {
+    background-color: #2f2f2f !important;
+}
+
+::ng-deep .mat-expansion-panel-header[aria-disabled=true] {
+    color: white;
+    height: fit-content;
+    font-family: 'Montserrat', 'Raleway', sans-serif
+}
+
+.mat-expansion-panel-header[aria-expanded=true] {
+    margin-top: 1px;
+}
+
+mat-expansion-panel-header {
+    height: 100%;
+    font-family: 'Montserrat', 'Raleway', sans-serif
+}
+
+mat-panel-title {
+    /* white-space: nowrap; */
+    overflow: hidden;
+    text-overflow: ellipsis;
+    font-size-adjust: 100%;
+    /* width: fit-content; */
+    font-family: 'Montserrat', 'Raleway', sans-serif
+}
+
+mat-panel-description {
+    color: white;
+    font-family: 'Raleway', sans-serif
+}
+
+.material-icons {
+    color: lightgray;
+}
+
+.mt-buttons {
+    width: fit-content;
+    margin-right: 10px;
+    background-color: rgb(211, 17, 69, 0.8);
+    color: white;
+    font-family: 'Montserrat', 'Raleway', sans-serif
+}
+
+.chosenArrayClass {
+    display: inline-block;
+    width: fit-content;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    animation: slide-up 0.4s ease-in-out;
+}
+
+.chosenArrayBox {
+    animation: slide-up 1s ease-in-out;
+}
+
+@keyframes slide-up {
+    0% {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+input[type=number]::-webkit-inner-spin-button, input[type=number]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+    font-family: 'Montserrat', 'Raleway', sans-serif
+}
+
+.matDescription {
+    background-color: gainsboro;
+    color: black;
+    border-color: #151515;
+    margin: 10px;
+    box-shadow: 0 5px 8px rgba(156, 156, 156, 0.5), 0 3px 3px rgba(143, 143, 143, 1);
+    font-family: 'Raleway', 'Montserrat';
+    white-space: pre-wrap
+}
+
+.matDescription>mat-card-subtitle {
+    color: #d31145;
+    font-family: 'Montserrat', 'Raleway', sans-serif
+}
+
+/* ICF color #d31145 */

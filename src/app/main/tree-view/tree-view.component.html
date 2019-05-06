@@ -1,40 +1,60 @@
+<link href="https://fonts.googleapis.com/css?family=Montserrat|Raleway" rel="stylesheet">
 <mat-card>
+  <mat-accordion style="font-family:'Montserrat'">
+    <mat-expansion-panel id="chosenArray" [expanded]="chosenPanelExpanded" [disabled]="chosenArray.length==0"
+      (opened)="chosenPanelExpanded=true" (closed)="chosenPanelExpanded=false" style="margin-bottom:20px">
+      <mat-expansion-panel-header>
+        <mat-panel-title>
+          Chosen classes
+        </mat-panel-title>
+      </mat-expansion-panel-header>
+      <mat-card class="chosenArrayBox" class="fourthpanel">
+        <ng-container>
+          <mat-card *ngFor="let item of chosenArray; let i=index" class="chosenArrayClass">
+            <mat-card-title>
+              {{item.initial}}{{item.number}}
+            </mat-card-title>
+            <mat-card-subtitle>
+              {{item.catName}}
+            </mat-card-subtitle>
+            <mat-card-content>
+              <mat-form-field style="width:100px" appearance="outline">
+                <mat-label>Qualifier</mat-label>
+                <input matInput type="number" [(ngModel)]="item.qualifier" max="100" maxlength="3" />
+              </mat-form-field>
+            </mat-card-content>
+            <mat-card-actions>
+              <button mat-stroked-button matTooltipShowDelay="1000" matTooltipShowDelay="1000"
+                matTooltip="Delete / Long press to reset" (longpress)="resetArrayItem(item)"
+                (click)="deleteArrayItem(item)" class="mt-buttons">
+                <i class="material-icons">
+                  clear
+                </i>
+              </button>
+              <button mat-stroked-button matTooltipShowDelay="1000" matTooltip="Copy code"
+                (click)="copyToClipboard(item.qualifier ? item.initial+item.number+'.'+item.qualifier : item.initial+item.number);"
+                class="mt-buttons">
+                <i class="material-icons">
+                  file_copy
+                </i>
+              </button>
+            </mat-card-actions>
+          </mat-card>
+        </ng-container>
+        <mat-card-actions *ngIf="chosenArray.length>0">
+          <button mat-stroked-button matTooltipShowDelay="1000" matTooltip="Delete / Long press to reset"
+            (click)="deleteChosenArray()" (longpress)="resetChosenArray()" class="mt-buttons">
+            <i class="material-icons">
+              clear
+            </i>
+          </button>
 
-  <mat-card class="chosenArrayBox">
-    <ng-container>
-      <mat-card *ngFor="let item of chosenArray" class="chosenArrayClass">
-        <mat-card-title>
-          {{item.initial}}{{item.number}}
-        </mat-card-title>
-        <mat-card-subtitle>
-          {{item.catName}}
-        </mat-card-subtitle>
-        <mat-card-actions>
-          <button mat-stroked-button (click)="deleteArrayItem(item)" class="mt-buttons">
-            <i class="material-icons">
-              delete
-            </i>
-          </button>
-          <button mat-stroked-button (click)="copyToClipboard(item.initial+item.number)" class="mt-buttons">
-            <i class="material-icons">
-              file_copy
-            </i>
-          </button>
         </mat-card-actions>
       </mat-card>
-    </ng-container>
-    <mat-card-actions *ngIf="chosenArray.length>0">
-      <button mat-stroked-button (click)="clearChosenArray()" class="mt-buttons">
-        <i class="material-icons">
-          delete
-        </i>
-      </button>
-    </mat-card-actions>
-  </mat-card>
-
+    </mat-expansion-panel>
+  </mat-accordion>
 
   <mat-accordion>
-
     <!-- 1 Class -->
     <ng-container style="white-space:pre-wrap">
       <mat-expansion-panel *ngFor="let firstclass of this.data;" class="right-aligned-header">
@@ -45,42 +65,37 @@
           <mat-panel-description>
           </mat-panel-description>
         </mat-expansion-panel-header>
-        <mat-card *ngIf='firstclass.description!==""'>
-          {{firstclass.description}}
-          <mat-card-actions>
-            <button mat-button class="mt-buttons" (click)="copyToClipboard(firstclass.description);">
-              <i class="material-icons">
-                file_copy
-              </i>
-            </button>
-
-          </mat-card-actions>
+        <mat-card *ngIf='firstclass.description!==""' class="matDescription">
+          <mat-card-subtitle>
+            Description
+          </mat-card-subtitle>
+          <mat-card-content [innerHTML]="firstclass.description">
+            {{firstclass.description}}
+          </mat-card-content>
         </mat-card>
 
         <!-- 2 Class -->
         <ng-container>
           <mat-accordion>
-            <mat-expansion-panel *ngFor="let secondclass of firstclass.subCat;" class="secondlass"
-              (opened)="panelOpenState = secondclass.initial+secondclass.number">
+            <mat-expansion-panel *ngFor="let secondclass of firstclass.subCat;let i=index" class="secondlass"
+              (opened)="panelOpenState = secondclass.initial+secondclass.number" style="white-space:pre-wrap">
               <mat-expansion-panel-header class="secondpanel">
                 <mat-panel-title>
                   {{secondclass.catName}}
                 </mat-panel-title>
                 <mat-panel-description>
-                  <button mat-button class="mt-buttons"
+                  <button matTooltipShowDelay="1000" matTooltip="Copy" mat-button class="mt-buttons"
                     (click)="copyToClipboard(secondclass.initial+secondclass.number);$event.stopPropagation();">
                     {{secondclass.initial}} {{secondclass.number}}</button>
                 </mat-panel-description>
               </mat-expansion-panel-header>
-              <mat-card *ngIf='secondclass.description!==""'>
-                {{secondclass.description}}
-                <mat-card-actions>
-                  <button mat-button class="mt-buttons" (click)="copyToClipboard(secondclass.description);">
-                    <i class="material-icons">
-                      file_copy
-                    </i>
-                  </button>
-                </mat-card-actions>
+              <mat-card *ngIf='secondclass.description!==""' class="matDescription">
+                <mat-card-subtitle>
+                  Description
+                </mat-card-subtitle>
+                <mat-card-content [innerHTML]="secondclass.description">
+                  {{secondclass.description}}
+                </mat-card-content>
               </mat-card>
 
               <!-- 3 Class -->
@@ -93,10 +108,12 @@
                         {{thirdclass.catName}}
                       </mat-panel-title>
                       <mat-panel-description>
-                        <button mat-button class="mt-buttons"
+                        <button matTooltipShowDelay="1000" matTooltip="Copy" mat-button class="mt-buttons"
                           (click)="copyToClipboard(thirdclass.initial+thirdclass.number);$event.stopPropagation();">
                           {{thirdclass.initial}} {{thirdclass.number}} </button>
-                        <button mat-stroked-button (click)="addToArray(thirdclass);$event.stopPropagation()">
+                        <button matTooltipShowDelay="1000" matTooltip="Add / Long press to scroll " mat-stroked-button
+                          (click)="addToArray(thirdclass);$event.stopPropagation()"
+                          (longpress)="scrollToChosenArray(thirdclass)">
                           <i class="material-icons">
                             add
                           </i>
@@ -104,15 +121,13 @@
                       </mat-panel-description>
 
                     </mat-expansion-panel-header>
-                    <mat-card *ngIf='thirdclass.description!==""'>
-                      {{thirdclass.description}}
-                      <mat-card-actions>
-                        <button mat-button class="mt-buttons" (click)="copyToClipboard(thirdclass.description);">
-                          <i class="material-icons">
-                            file_copy
-                          </i>
-                        </button>
-                      </mat-card-actions>
+                    <mat-card *ngIf='thirdclass.description!==""' class="matDescription">
+                      <mat-card-subtitle>
+                        Description
+                      </mat-card-subtitle>
+                      <mat-card-content [innerHTML]="thirdclass.description">
+                        {{thirdclass.description}}
+                      </mat-card-content>
                     </mat-card>
 
                     <!-- 4 Class -->
@@ -127,25 +142,25 @@
                               {{fourthclass.catName}}
                             </mat-panel-title>
                             <mat-panel-description>
-                              <button mat-button class="mt-buttons"
+                              <button matTooltipShowDelay="1000" matTooltip="Copy code" mat-button class="mt-buttons"
                                 (click)="copyToClipboard(fourthclass.initial+fourthclass.number);$event.stopPropagation();">
                                 {{fourthclass.initial}} {{fourthclass.number}}</button>
-                              <button mat-stroked-button (click)="addToArray(fourthclass);$event.stopPropagation()">
+                              <button matTooltipShowDelay="1000" matTooltip="Add / Long press to scroll "
+                                mat-stroked-button (click)="addToArray(fourthclass);$event.stopPropagation()"
+                                (longpress)="scrollToChosenArray(fourthclass)">
                                 <i class="material-icons">
                                   add
                                 </i>
                               </button>
                             </mat-panel-description>
                           </mat-expansion-panel-header>
-                          <mat-card *ngIf='fourthclass.description!==""'>
-                            {{fourthclass.description}}
-                            <mat-card-actions>
-                              <button mat-button class="mt-buttons" (click)="copyToClipboard(fourthclass.description);">
-                                <i class="material-icons">
-                                  file_copy
-                                </i>
-                              </button>
-                            </mat-card-actions>
+                          <mat-card *ngIf='fourthclass.description!==""' class="matDescription">
+                            <mat-card-subtitle>
+                              Description
+                            </mat-card-subtitle>
+                            <mat-card-content [innerHTML]="fourthclass.description">
+                              {{fourthclass.description}}
+                            </mat-card-content>
                           </mat-card>
 
                           <!-- 5 Class -->
@@ -158,27 +173,26 @@
                                     {{fifthclass.catName}}
                                   </mat-panel-title>
                                   <mat-panel-description>
-                                    <button mat-button class="mt-buttons"
+                                    <button matTooltipShowDelay="1000" matTooltip="Copy code" mat-button
+                                      class="mt-buttons"
                                       (click)="copyToClipboard(fifthclass.initial+fifthclass.number);$event.stopPropagation();">
                                       {{fifthclass.initial}} {{fifthclass.number}}</button>
-                                    <button mat-stroked-button
-                                      (click)="addToArray(fifthclass);$event.stopPropagation()">
+                                    <button matTooltipShowDelay="1000" matTooltip="Add / Long press to scroll "
+                                      mat-stroked-button (click)="addToArray(fifthclass);$event.stopPropagation()"
+                                      (longpress)="scrollToChosenArray(fifthclass)">
                                       <i class="material-icons">
                                         add
                                       </i>
                                     </button>
                                   </mat-panel-description>
                                 </mat-expansion-panel-header>
-                                <mat-card *ngIf='fifthclass.description!==""'>
-                                  {{fifthclass.description}}
-                                  <mat-card-actions>
-                                    <button mat-button class="mt-buttons"
-                                      (click)="copyToClipboard(fifthclass.description);">
-                                      <i class="material-icons">
-                                        file_copy
-                                      </i>
-                                    </button>
-                                  </mat-card-actions>
+                                <mat-card *ngIf='fifthclass.description!==""' class="matDescription">
+                                  <mat-card-subtitle>
+                                    Description
+                                  </mat-card-subtitle>
+                                  <mat-card-content [innerHTML]="fifthclass.description">
+                                    {{fifthclass.description}}
+                                  </mat-card-content>
                                 </mat-card>
 
                                 <!-- 6 Class -->
@@ -187,33 +201,32 @@
                                   <mat-accordion>
                                     <mat-expansion-panel *ngFor="let sixthclass of fifthclass.subCat"
                                       [disabled]='sixthclass.subCat=="" && sixthclass.description==""'
-                                      class="sixthclass" style="white-space:pre-wrap">
+                                      class="sixthclass">
                                       <mat-expansion-panel-header class="sixthpanel">
                                         <mat-panel-title>
                                           {{sixthclass.catName}}
                                         </mat-panel-title>
                                         <mat-panel-description>
-                                          <button mat-button class="mt-buttons"
+                                          <button matTooltipShowDelay="1000" matTooltip="Copy code" mat-button
+                                            class="mt-buttons"
                                             (click)="copyToClipboard(sixthclass.initial+sixthclass.number);$event.stopPropagation();">
                                             {{sixthclass.initial}} {{sixthclass.number}}</button>
-                                          <button mat-stroked-button
-                                            (click)="addToArray(sixthclass);$event.stopPropagation()">
+                                          <button matTooltipShowDelay="1000" matTooltip="Add / Long press to scroll "
+                                            mat-stroked-button (click)="addToArray(sixthclass);$event.stopPropagation()"
+                                            (longpress)="scrollToChosenArray(sixthclass)">
                                             <i class="material-icons">
                                               add
                                             </i>
                                           </button>
                                         </mat-panel-description>
                                       </mat-expansion-panel-header>
-                                      <mat-card *ngIf='sixthclass.description!==""'>
-                                        {{sixthclass.description}}
-                                        <mat-card-actions>
-                                          <button mat-button class="mt-buttons"
-                                            (click)="copyToClipboard(sixthclass.description);">
-                                            <i class="material-icons">
-                                              file_copy
-                                            </i>
-                                          </button>
-                                        </mat-card-actions>
+                                      <mat-card *ngIf='sixthclass.description!==""' class="matDescription">
+                                        <mat-card-subtitle>
+                                          Description
+                                        </mat-card-subtitle>
+                                        <mat-card-content [innerHTML]="sixthclass.description">
+                                          {{sixthclass.description}}
+                                        </mat-card-content>
                                       </mat-card>
                                     </mat-expansion-panel>
                                   </mat-accordion>

@@ -3,25 +3,25 @@
 		"catName": "BODY FUNCTIONS",
 		"initial": "b",
 		"number": "",
-		"description": "Lorem Ipsum Dolor Description",
+		"description": "Broad ranges of percentages are provided for those cases in which calibrated assessment instruments or other standards are available to quantify the impairment in body function. \nFor example, when no impairment or complete impairment in body function is coded, this scaling may have margin of error of up to 5%. Moderate impairment is generally up to half of the scale of total impairment. The percentages are to be calibrated in different domains with reference to population standards as percentiles. For this quantification to be used in a uniform manner, assessment procedures need to be developed through research. \nFor a further explanation of coding conventions in ICF, refer to Annex 2.",
 		"subCat": [
 			{
 				"catName": "MENTAL FUNCTIONS",
 				"initial": "b",
 				"number": "1",
-				"description": "Lorem Ipsum Dolor Description",
+				"description": "This chapter is about the functions of the brain: both global mental functions, such as consciousness, energy and drive, and specific mental functions, such as memory, language and calculation mental functions.",
 				"subCat": [
 					{
 						"catName": "Global mental functions",
 						"initial": "b",
 						"number": "110-139",
-						"description": "Lorem Ipsum Dolor Description",
+						"description": "",
 						"subCat": [
 							{
 								"catName": "Consciousness functions",
 								"initial": "b",
 								"number": "110",
-								"description": "Lorem Ipsum Dolor Description",
+								"description": "General mental functions of the state of awareness and alertness, including the clarity and continuity of the wakeful state.\n\n<i>Inclusions: functions of the state, continuity and quality of consciousness; loss of consciousness; coma, vegetative states, fugues, trance states, possession states, drug-induced altered consciousness, delirium, stupor\n\nExclusions: orientation functions (b114); energy and drive functions (b130); sleep functions (b134)</i>",
 								"subCat": [
 									{
 										"catName": "State of consciousness",
@@ -34,14 +34,14 @@
 										"catName": "Continuity of consciousness",
 										"initial": "b",
 										"number": "1101",
-										"description": "",
+										"description": "Mental functions that produce sustained wakefulness, alertness and awareness and, when disrupted, may produce fugue, trance or other similar states.",
 										"subCat": ""
 									},
 									{
 										"catName": "Quality of consciousness",
 										"initial": "b",
 										"number": "1102",
-										"description": "",
+										"description": "Mental functions that when altered effect changes in the character of wakeful, alert and aware sentience, such as druginduced altered states or delirium.",
 										"subCat": ""
 									},
 									{
@@ -64,40 +64,40 @@
 								"catName": "Orientation functions",
 								"initial": "b",
 								"number": "114",
-								"description": "",
+								"description": "General mental functions of knowing and ascertaining one's relation to time, to place, to self, to others, to objects and to space.\n\n<i>Inclusions: functions of orientation to time, place and person; orientation to self and others; disorientation to time, place and person \n\nExclusions: consciousness functions (b110); attention functions (b140); memory functions (b144)</i>",
 								"subCat": [
 									{
 										"catName": "Orientation to time",
 										"initial": "b",
 										"number": "1140",
-										"description": "",
+										"description": "Mental functions that produce awareness of time of the day, day of the week, date, month and year.",
 										"subCat": ""
 									},
 									{
 										"catName": "Orientation to place",
 										"initial": "b",
 										"number": "1141",
-										"description": "",
+										"description": "Mental functions that produce awareness of one's location, such as one's immediate surroundings, one's town or country.",
 										"subCat": ""
 									},
 									{
 										"catName": "Orientation to person",
 										"initial": "b",
 										"number": "1142",
-										"description": "",
+										"description": "Mental functions that produce awareness of one's own identity and of individuals in the immediate environment.",
 										"subCat": [
 											{
 												"catName": "Orientation to self",
 												"initial": "b",
 												"number": "11420",
-												"description": "",
+												"description": "Mental functions that produce awareness of one's own identity.",
 												"subCat": ""
 											},
 											{
 												"catName": "Orientation to others",
 												"initial": "b",
 												"number": "11421",
-												"description": "",
+												"description": "Mental functions that produce awareness of the identity of other individuals in one's immediate environment.",
 												"subCat": ""
 											},
 											{
@@ -120,14 +120,14 @@
 										"catName": "Orientation to objects",
 										"initial": "b",
 										"number": "1143",
-										"description": "",
+										"description": "Mental functions that produce awareness of objects or features of objects.",
 										"subCat": ""
 									},
 									{
 										"catName": "Orientation to space",
 										"initial": "b",
-										"number": "1145",
-										"description": "",
+										"number": "1144",
+										"description": "Mental functions that produce awareness of oneâ€™s body in relation to the immediate physical space.",
 										"subCat": ""
 									},
 									{
@@ -150,76 +150,76 @@
 								"catName": "Intellectual functions",
 								"initial": "b",
 								"number": "117",
-								"description": "",
+								"description": "General mental functions, required to understand and constructively integrate the various mental functions including all cognitive functions and their development over the life span. \n\n<i>Inclusions: functions of intellectual growth; intellectual retardation, mental retardation, dementia \n\nExclusions: memory functions (b144); thought functions (b160); higher level cognitive functions (b164)</i>",
 								"subCat": ""
 							},
 							{
 								"catName": "Global psychosocial functions",
 								"initial": "b",
 								"number": "122",
-								"description": "",
+								"description": "General mental functions, as they develop over the life span, required to understand and constructively integrate the mental functions that lead to the formation of the personal skills needed to establish reciprocal social interactions, in terms of both meaning and purpose.\n\n<i>Inclusions: such as in autism</i>",
 								"subCat": ""
 							},
 							{
 								"catName": "Temperament and personality functions",
 								"initial": "b",
 								"number": "126",
-								"description": "",
+								"description": "General mental functions of constitutional disposition of the individual to react in a particular way to situations, including the set of mental characteristics that makes the individual distinct from others.\n\n<i>Inclusions: functions of extraversion, introversion, agreeableness, conscientiousness, psychic and emotional stability, and openness to experience; optimism; novelty seeking; confidence; trustworthiness\n\nExclusions: intellectual functions (b117); energy and drive functions (b130); psychomotor functions (b147); emotional functions (b152)</i>",
 								"subCat": [
 									{
 										"catName": "Extraversion",
 										"initial": "b",
 										"number": "1260",
-										"description": "",
+										"description": "Mental functions that produce a personal disposition that is outgoing, sociable and demonstrative, as contrasted to being shy, restricted and inhibited.",
 										"subCat": ""
 									},
 									{
 										"catName": "Agreeableness",
 										"initial": "b",
 										"number": "1261",
-										"description": "",
+										"description": "Mental functions that produce a personal disposition that is cooperative, amicable, and accomodating, as contrasted to being unfriendly, oppositional and defiant.",
 										"subCat": ""
 									},
 									{
 										"catName": "Conscientiousness",
 										"initial": "b",
 										"number": "1262",
-										"description": "",
+										"description": "Mental functions that produce a personal disposition such as in being hard-working, methodical and scrupulous, as contrasted to mental functions producing dispositions such as being lazy, unreliable and irresponsible.",
 										"subCat": ""
 									},
 									{
 										"catName": "Psychic stability",
 										"initial": "b",
 										"number": "1263",
-										"description": "",
+										"description": "Mental functions that produce a personal disposition that is even-tempered, calm and composed, as contrasted to being irritable, worried, erratic and moody.",
 										"subCat": ""
 									},
 									{
 										"catName": "Openness to experience",
 										"initial": "b",
 										"number": "1264",
-										"description": "",
+										"description": "Mental functions that produce a personal disposition that is curious, imaginative, inquisitive and experience-seeking, as contrasted to being stagnant, inattentive and emotionally inexpressive.",
 										"subCat": ""
 									},
 									{
 										"catName": "Optimism",
 										"initial": "b",
 										"number": "1265",
-										"description": "",
+										"description": "Mental functions that produce a personal disposition that is cheerful, buoyant and hopeful, as contrasted to being downhearted, gloomy and despairing.",
 										"subCat": ""
 									},
 									{
 										"catName": "Confidence",
 										"initial": "b",
 										"number": "1266",
-										"description": "",
+										"description": "Mental functions that produce a personal disposition that is self-assured, bold and assertive, as contrasted to being timid, insecure and self effacing.",
 										"subCat": ""
 									},
 									{
 										"catName": "Trustworthiness",
 										"initial": "b",
 										"number": "1267",
-										"description": "",
+										"description": "Mental functions that produce a personal disposition that is dependable and principled, as contrasted to being deceitful and antisocial.",
 										"subCat": ""
 									},
 									{
@@ -242,7 +242,7 @@
 								"catName": "Energy and drive functions",
 								"initial": "b",
 								"number": "130",
-								"description": "",
+								"description": "General mental functions of physiological and psychological mechanisms that cause the individual to move towards satisfy specific needs and general goals in a persistent manner. \n\n<i>Inclusions: functions of energy level, motivation, appetites, craving (including craving for substances that can be abused), and impulse control \n\nExclusions: consciousness functions (b110); temperament and personality functions (b126); sleep functions (b134); psychomotor functions (b147); emotional functions (b152)</i>",
 								"subCat": [
 									{
 										"catName": "Energy level",
@@ -299,41 +299,41 @@
 								"catName": "Sleep functions",
 								"initial": "b",
 								"number": "134",
-								"description": "",
+								"description": "General mental functions of periodic, reversible and selective physical and mental disengagement from one's immediate environment accompanied by characteristic physiological changes. \n\n<i>Inclusions: functions of amount of sleeping, and onset, maintenance and quality of sleep; functions involving the sleep cycle, such as in insomnia, hypersomnia and narcolepsy \n\nExclusions: consciousness functions (b110); energy and drive functions (b130); attention functions (b140); psychomotor functions (b147)</i>",
 								"subCat": [
 									{
 										"catName": "Amount of sleep",
 										"initial": "b",
 										"number": "1340",
-										"description": "",
+										"description": "Mental functions involved in the time spent in the state of sleep in the diurnal cycle or circadian rhythm.",
 										"subCat": ""
 									},
 									{
 										"catName": "Onset of sleep",
 										"initial": "b",
 										"number": "1341",
-										"description": "",
+										"description": "Mental functions that produce the transition between wakefulness and sleep.",
 										"subCat": ""
 									},
 									{
 										"catName": "Maintenance of sleep",
 										"initial": "b",
 										"number": "1342",
-										"description": "",
+										"description": "Mental functions that sustain the state of being asleep.",
 										"subCat": ""
 									},
 									{
 										"catName": "Quality of sleep",
 										"initial": "b",
 										"number": "1343",
-										"description": "",
+										"description": "Mental functions that produce the natural sleep leading to optimal physical and mental rest and relaxation.",
 										"subCat": ""
 									},
 									{
 										"catName": "Functions involving the sleep cycle",
 										"initial": "b",
 										"number": "1344",
-										"description": "",
+										"description": "Mental functions that produce rapid eye movement (REM) sleep (associated with dreaming) and non-rapid eye movement sleep (NREM) (characterized by the traditional concept of sleep as a time of decreased physiological and psychological activity).",
 										"subCat": ""
 									},
 									{
@@ -371,7 +371,7 @@
 								"catName": "Attention functions",
 								"initial": "b",
 								"number": "140",
-								"description": "",
+								"description": "Specific mental functions of focusing on an external stimulus or internal experience for the required period of time. \n\n<i>Inclusions: functions of sustaining attention, shifting attention, dividing attention, sharing attention; concentration; distractibility \n\nExclusions: consciousness functions (b110); energy and drive functions (b130); sleep functions (b134); memory functions (b144); psychomotor functions (b147); perceptual functions (b156)</i>",
 								"subCat": [
 									{
 										"catName": "Sustaining attention",
@@ -421,7 +421,7 @@
 								"catName": "Memory functions",
 								"initial": "b",
 								"number": "144",
-								"description": "",
+								"description": "Specific mental functions of registering and storing information and retrieving it as needed. \n\n<i>Inclusions: functions of short-term and long-term memory, immediate, recent and remote memory; memory span; retrieval of memory; remembering; functions used in recalling and learning, such as in nominal, selective and dissociative amnesia \n\nExclusions: consciousness functions (b110); orientation functions (b114), intellectual functioning (b117), attention functions (b140), perceptual functions (b156); thought functions (b160), higher-level cognitive functions (b164), mental functions of language (b167); calculation functions (b172)</i>",
 								"subCat": [
 									{
 										"catName": "Short-term memory",
@@ -471,7 +471,7 @@
 								"catName": "Psychomotor functions",
 								"initial": "b",
 								"number": "147",
-								"description": "",
+								"description": "Specific mental functions of control over both motor and psychological events at the body level. \n\nInclusions: functions of psychomotor control, such as in psychomotor retardation, excitement and agitation, posturing, catatonia, negativism, ambitendency, echopraxia and echolalia; quality of psychomotor function. \n\nExclusions: consciousness functions (b110); orientation functions (b114); intellectual functions (b117); energy and drive functions (b130); attention functions (b140); mental functions of language (b167); mental function of sequencing complex movements (b176)</i>",
 								"subCat": [
 									{
 										"catName": "Psychomotor control",
@@ -507,27 +507,27 @@
 								"catName": "Emotional functions",
 								"initial": "b",
 								"number": "152",
-								"description": "",
+								"description": "Specific mental functions related to the feeling and affective components of the processes of the mind. \n\n<i>Inclusions: functions of appropriateness of emotion, regulation and range of emotion; affect, sadness, happiness, love, fear, anger, hate, tension, anxiety, joy, sorrow; lability of emotion; flattening of affect \n\nExclusions: temperament and personality functions (b126); energy and drive functions (b130)</i>",
 								"subCat": [
 									{
 										"catName": "Appropriateness of emotion",
 										"initial": "b",
 										"number": "1520",
-										"description": "",
+										"description": "Mental functions that produce congruence of feeling or affect with the situation, such as happiness at receiving good news.",
 										"subCat": ""
 									},
 									{
 										"catName": "Regulation of emotion",
 										"initial": "b",
 										"number": "1521",
-										"description": "",
+										"description": "Mental functions that control the experience and display of affect.",
 										"subCat": ""
 									},
 									{
 										"catName": "Range of emotion",
 										"initial": "b",
 										"number": "1522",
-										"description": "",
+										"description": "Mental functions that produce the spectrum of experience of arousal of affect or feelings such as love, hate, anxiousness, sorrow, joy, fear and anger.",
 										"subCat": ""
 									},
 									{
@@ -550,7 +550,7 @@
 								"catName": "Perceptual functions",
 								"initial": "b",
 								"number": "156",
-								"description": "",
+								"description": "Specific mental functions of recognizing and interpreting sensory stimuli. \n\n<i>Inclusions: functions of auditory, visual, olfactory, gustatory, tactile and visuospatial perception, such as in hallucination or illusion \n\nExclusions: consciousness functions (b110); orientation functions (b114); attention functions (b140); memory functions (b144); mental functions of language (b167); seeing and related functions (b210-b229), hearing and vestibular functions (b230-b249); additional sensory functions (b250-b279)</i>",
 								"subCat": [
 									{
 										"catName": "Auditory perception",
@@ -614,7 +614,7 @@
 								"catName": "Thought functions",
 								"initial": "b",
 								"number": "160",
-								"description": "",
+								"description": "Specific mental functions related to the ideational component of the mind. \n\n<i>Inclusions: functions of pace, form, control and content of thought; goaldirected thought functions, non-goal directed thought functions; logical thought functions, such as pressure of thought, flight of ideas, thought block, incoherence of thought, tangentiality, circumstantiality, delusions, obsessions and compulsions \n\nExclusions: intellectual functions (b117); memory functions (b144); psychomotor functions (b147); perceptual functions (b156); higher-level cognitive functions (b164); mental functions of language (b167); calculation functions (b172)</i>",
 								"subCat": [
 									{
 										"catName": "Pace of thought",
@@ -664,7 +664,7 @@
 								"catName": "Higher-level cognitive functions",
 								"initial": "b",
 								"number": "164",
-								"description": "",
+								"description": "Specific mental functions especially dependent on the frontal lobes of the brain, including complex goal-directed behaviours such as decision-making, abstract thinking, planning and carrying out plans, mental flexibility, and deciding which behaviours are appropriate under what circumstances; often called executive functions. \n\n<i>Inclusions: functions of abstraction and organization of ideas; time management, insight and judgement; concept formation, categorization and cognitive flexibility \n\nExclusions: memory functions (b144); thought functions (b160); mental functions of language (b167); calculation functions (b172)</i>",
 								"subCat": [
 									{
 										"catName": "Abstraction",
@@ -698,7 +698,7 @@
 										"catName": "Insight",
 										"initial": "b",
 										"number": "1644",
-										"description": "",
+										"description": "Mental functions of awareness and understanding of oneself and one's behaviour.",
 										"subCat": ""
 									},
 									{
@@ -735,7 +735,7 @@
 								"catName": "Mental functions of language",
 								"initial": "b",
 								"number": "167",
-								"description": "",
+								"description": "Specific mental functions of recognizing and using signs, symbols and other components of a language. \n\n<i>Inclusions: functions of reception and decryption of spoken, written or other forms of language such as sign language; functions of expression of spoken, written, or other forms of language; integrative language functions spoken and written, such as involved in receptive, expressive, Broca's, Wernicke's and conduction aphasia \n\nExclusions: attention functions (b140); memory functions (b144); perceptual functions (b156); thought functions (b160); higher-level cognitive functions (b164); calculation functions (b172); mental function of complex movements (b176); Chapter 2 Sensory Functions and Pain (b2); Chapter 3 Voice and Speech Functions (b3)</i>",
 								"subCat": [
 									{
 										"catName": "Reception of language",
@@ -864,7 +864,7 @@
 								"catName": "Calculation functions",
 								"initial": "b",
 								"number": "172",
-								"description": "",
+								"description": "Specific mental functions of determination, approximation and manipulation of mathematical symbols and processes. \n\n<i>Inclusions: functions of addition, subtraction, and other simple mathematical calculations; functions of complex mathematical operations \n\nExclusions: attention functions (b140); memory functions (b144); thought functions (b160); higher-level cognitive functions (b164); mental functions of language (b167)</i>",
 								"subCat": [
 									{
 										"catName": "Simple calculation",
@@ -900,34 +900,34 @@
 								"catName": "Mental function of sequencing complex movements",
 								"initial": "b",
 								"number": "176",
-								"description": "",
+								"description": "Specific mental functions of determination, approximation and manipulation of mathematical symbols and processes. \n\n<i>Inclusions: functions of addition, subtraction, and other simple mathematical calculations; functions of complex mathematical operations \n\nExclusions: attention functions (b140); memory functions (b144); thought functions (b160); higher-level cognitive functions (b164); mental functions of language (b167)</i>",
 								"subCat": ""
 							},
 							{
 								"catName": "Experience of self and time functions",
 								"initial": "b",
 								"number": "180",
-								"description": "",
+								"description": "Specific mental functions related to the awareness of one's identity, one's body, one's position in the reality of one's environment and of time. \n\n<i>Inclusions: functions of experience of self, body image and time</i>",
 								"subCat": [
 									{
 										"catName": "Experience of self",
 										"initial": "b",
 										"number": "1800",
-										"description": "",
+										"description": "Specific mental functions of being aware of one's own identity and one's position in the reality of one's environment around oneself. \n\n<i>Inclusions: impairments such as depersonalization and derealization</i>",
 										"subCat": ""
 									},
 									{
 										"catName": "Body image",
 										"initial": "b",
 										"number": "1801",
-										"description": "",
+										"description": "Specific mental functions related to the representation and awareness of one's body. \n\n<i>Inclusions: impairments such as phantom limb and feeling too fat or too thin</i>",
 										"subCat": ""
 									},
 									{
 										"catName": "Experience of time",
 										"initial": "b",
 										"number": "1802",
-										"description": "",
+										"description": "Specific mental functions of the subjective experiences related to the length and passage of time. \n\n<i>Inclusions: impairments such as jamais vu and déjà vu</i>",
 										"subCat": ""
 									},
 									{
@@ -975,7 +975,7 @@
 				"catName": "SENSORY FUNCTIONS AND PAIN",
 				"initial": "b",
 				"number": "2",
-				"description": "",
+				"description": "This chapter is about the functions of the senses, seeing, hearing, tasting and so on, as well as the sensation of pain.",
 				"subCat": [
 					{
 						"catName": "Seeing and related functions",
@@ -987,40 +987,40 @@
 								"catName": "Seeing functions",
 								"initial": "b",
 								"number": "210",
-								"description": "",
+								"description": "Sensory functions relating to sensing the presence of light and sensing the form, size, shape and colour of the visual stimuli. \n\n<i>Inclusions: visual acuity functions; visual field functions; quality of vision; functions of sensing light and colour, visual acuity of distant and near vision, monocular and binocular vision; visual picture quality; impairments such as myopia, hypermetropia, astigmatism, hemianopia, colour-blindness, tunnel vision, central and peripheral scotoma, diplopia, night blindness and impaired adaptability to light \n\nExclusions: perceptual functions (b156)</i>",
 								"subCat": [
 									{
 										"catName": "Visual acuity functions",
 										"initial": "b",
 										"number": "2100",
-										"description": "",
+										"description": "Seeing functions of sensing form and contour, both binocular and monocular, for both distant and near vision.",
 										"subCat": [
 											{
 												"catName": "Binocular acuity of distant vision",
 												"initial": "b",
 												"number": "21000",
-												"description": "",
+												"description": "Seeing functions of sensing size, form and contour using both eyes for objects distant from the eye.",
 												"subCat": ""
 											},
 											{
 												"catName": "Monocular acuity of distant vision",
 												"initial": "b",
 												"number": "21001",
-												"description": "",
+												"description": "Seeing functions of sensing size, form and contour using either right or left eye alone, for objects distant from the eye.",
 												"subCat": ""
 											},
 											{
 												"catName": "Binocular acuity of near vision",
 												"initial": "b",
 												"number": "21002",
-												"description": "",
+												"description": "Seeing functions of sensing size, form and contour, using both eyes, for objects close to the eye.",
 												"subCat": ""
 											},
 											{
 												"catName": "Monocular acuity of near vision",
 												"initial": "b",
 												"number": "21003",
-												"description": "",
+												"description": "Seeing functions of sensing size, form and contour, using either right or left eye alone, for objects close to the eye.",
 												"subCat": ""
 											},
 											{
@@ -1043,41 +1043,41 @@
 										"catName": "Visual field functions",
 										"initial": "b",
 										"number": "2101",
-										"description": "",
+										"description": "Seeing functions related to the entire area that can be seen with fixation of gaze. \n\n<i>Inclusions: impairments such as in scotoma, tunnel vision, anopsia</i>",
 										"subCat": ""
 									},
 									{
 										"catName": "Quality of vision",
 										"initial": "b",
 										"number": "2102",
-										"description": "",
+										"description": "Seeing functions involving light sensitivity, colour vision, contrast sensitivity and the overall quality of the picture.",
 										"subCat": [
 											{
 												"catName": "Light sensitivity",
 												"initial": "b",
 												"number": "21020",
-												"description": "",
+												"description": "Seeing functions of sensing a minimum amount of light (light minimum), and the minimum difference in intensity (light difference). \n\n<i>Inclusions: functions of dark adaptation; impairments such as night blindness (hyposensitivity to light) and photophobia (hypersensitivity to light)</i>",
 												"subCat": ""
 											},
 											{
 												"catName": "Colour vision",
 												"initial": "b",
 												"number": "21021",
-												"description": "",
+												"description": "Seeing functions of differentiating and matching colours.",
 												"subCat": ""
 											},
 											{
 												"catName": "Contrast sensitivity",
 												"initial": "b",
 												"number": "21022",
-												"description": "",
+												"description": "Seeing functions of separating figure from ground, involving the minimum amount of luminance required.",
 												"subCat": ""
 											},
 											{
 												"catName": "Visual picture quality",
 												"initial": "b",
 												"number": "21023",
-												"description": "",
+												"description": "Seeing functions involving the quality of the picture. \n\n<i>Inclusions: impairments such as in seeing stray lights; affected picture quality (floaters or webbing); picture distortion, and seeing stars or flashes</i>",
 												"subCat": ""
 											},
 											{
@@ -1116,34 +1116,34 @@
 								"catName": "Functions of structures adjoining the eye",
 								"initial": "b",
 								"number": "215",
-								"description": "",
+								"description": "Functions of structures in and around the eye that facilitate seeing functions. \n\n<i>Inclusions: functions of internal muscles of the eye, eyelid, external muscles of the eye, including voluntary and tracking movements and fixation of the eye, lachrymal glands, accommodation, pupillary reflex; impairments such as in nystagmus, xerophthalmia and ptosis \n\nExclusions: seeing functions (b210); Chapter 7 Neuromusculoskeletal and Movement-related Functions (b7)</i>",
 								"subCat": [
 									{
 										"catName": "Functions of internal muscles of the eye",
 										"initial": "b",
 										"number": "2150",
-										"description": "",
+										"description": "Functions of the muscles inside the eye, such as the iris, that adjust the shape and size of the pupil and lens of the eye. \n\n<i>Inclusions: functions of accommodation; pupillar reflex</i>",
 										"subCat": ""
 									},
 									{
 										"catName": "Functions of the eyelid",
 										"initial": "b",
 										"number": "2151",
-										"description": "",
+										"description": "Functions of the eyelid, such as the protective reflex.",
 										"subCat": ""
 									},
 									{
 										"catName": "Functions of external muscles of the eye",
 										"initial": "b",
 										"number": "2152",
-										"description": "",
+										"description": "Functions of the muscles that are used to look in different directions, to follow an object as it moves across the visual field, to produce saccadic jumps to catch up with a moving target, and to fix the eye. \n\n<i>Inclusions: nystagmus; cooperation of both eyes</i>",
 										"subCat": ""
 									},
 									{
 										"catName": "Functions of lachrymal glands",
 										"initial": "b",
 										"number": "2153",
-										"description": "",
+										"description": "Functions of the tear glands and ducts.",
 										"subCat": ""
 									},
 									{
@@ -1166,7 +1166,7 @@
 								"catName": "Sensations associated with the eye and adjoining structures",
 								"initial": "b",
 								"number": "220",
-								"description": "",
+								"description": "Sensations of tired, dry and itching eye and related feelings. \n\n<i>Inclusions: feelings of pressure behind the eye, of something in the eye, eye strain, burning in the eye; eye irritation \n\nExclusions: sensation of pain (b280)</i>",
 								"subCat": ""
 							},
 							{
@@ -1188,41 +1188,41 @@
 								"catName": "Hearing functions",
 								"initial": "b",
 								"number": "230",
-								"description": "",
+								"description": "Sensory functions relating to sensing the presence of sounds and discriminating the location, pitch, loudness and quality of sounds. \n\n<i>Inclusions: functions of hearing, auditory discrimination, localization of sound source, lateralization of sound, speech discrimination; impairments such as deafness, hearing impairment and hearing loss \n\nExclusions: perceptual functions (b156) and mental functions of language (b167)</i>",
 								"subCat": [
 									{
 										"catName": "Sound detection",
 										"initial": "b",
 										"number": "2300",
-										"description": "",
+										"description": "Sensory functions relating to sensing the presence of sounds.",
 										"subCat": ""
 									},
 									{
 										"catName": "Sound discrimination",
 										"initial": "b",
 										"number": "2301",
-										"description": "",
+										"description": "Sensory functions relating to sensing the presence of sound involving the differentiation of ground and binaural synthesis, separation and blending.",
 										"subCat": ""
 									},
 									{
 										"catName": "Localization of sound source",
 										"initial": "b",
 										"number": "2302",
-										"description": "",
+										"description": "Sensory functions relating to determining the location of the source of sound.",
 										"subCat": ""
 									},
 									{
 										"catName": "Lateralization of sound",
 										"initial": "b",
 										"number": "2303",
-										"description": "",
+										"description": "Sensory functions relating to determining whether the sound is coming from right or the left side.",
 										"subCat": ""
 									},
 									{
 										"catName": "Speech discrimination",
 										"initial": "b",
 										"number": "2304",
-										"description": "",
+										"description": "Sensory functions relating to determining spoken language and distinguishing it from other sounds.",
 										"subCat": ""
 									},
 									{
@@ -1245,27 +1245,27 @@
 								"catName": "Vestibular functions",
 								"initial": "b",
 								"number": "235",
-								"description": "",
+								"description": "Sensory functions of the inner ear related to position, balance and movement. \n\n<i>Inclusions: functions of position and positional sense; functions of balance of the body and movement \n\nExclusions: sensation associated with hearing and vestibular functions (b240)</i>",
 								"subCat": [
 									{
 										"catName": "Vestibular function of position",
 										"initial": "b",
 										"number": "2350",
-										"description": "",
+										"description": "Sensory functions of the inner ear related to determining the position of the body.",
 										"subCat": ""
 									},
 									{
 										"catName": "Vestibular function of balance",
 										"initial": "b",
 										"number": "2351",
-										"description": "",
+										"description": "Sensory functions of the inner ear related to determining the balance of the body.",
 										"subCat": ""
 									},
 									{
 										"catName": "Vestibular function of determination of movement",
 										"initial": "b",
 										"number": "2352",
-										"description": "",
+										"description": "Sensory functions of the inner ear related to determining movement of the body, including its direction and speed.",
 										"subCat": ""
 									},
 									{
@@ -1288,48 +1288,48 @@
 								"catName": "Sensations associated with hearing and vestibular function",
 								"initial": "b",
 								"number": "240",
-								"description": "",
+								"description": "Sensations of dizziness, falling, tinnitus and vertigo. \n\n<i>Inclusions: sensations of ringing in ears, irritation in ear, aural pressure, nausea associated with dizziness or vertigo \n\nExclusions: vestibular functions (b235); sensation of pain (b280)</i>",
 								"subCat": [
 									{
 										"catName": "Ringing in ears or tinnitus",
 										"initial": "b",
 										"number": "2400",
-										"description": "",
+										"description": "Sensation of low-pitched rushing, hissing or ringing in the ear.",
 										"subCat": ""
 									},
 									{
 										"catName": "Dizziness",
 										"initial": "b",
 										"number": "2401",
-										"description": "",
+										"description": "Sensation of motion involving either oneself or one's environment; sensation of rotating, swaying or tilting.",
 										"subCat": ""
 									},
 									{
 										"catName": "Sensation of falling",
 										"initial": "b",
 										"number": "2402",
-										"description": "",
+										"description": "Sensation of losing one's grip and falling.",
 										"subCat": ""
 									},
 									{
 										"catName": "Nausea associated with dizziness or vertigo",
 										"initial": "b",
 										"number": "2403",
-										"description": "",
+										"description": "Sensation of wanting to vomit that arises from dizziness or vertigo.",
 										"subCat": ""
 									},
 									{
 										"catName": "Irritation in the ear",
 										"initial": "b",
 										"number": "2404",
-										"description": "",
+										"description": "Sensation of itching or other similar sensations in the ear.",
 										"subCat": ""
 									},
 									{
 										"catName": "Aural pressure",
 										"initial": "b",
 										"number": "2405",
-										"description": "",
+										"description": "Sensation of pressure in the ear.",
 										"subCat": ""
 									},
 									{
@@ -1367,62 +1367,62 @@
 								"catName": "Taste function",
 								"initial": "b",
 								"number": "250",
-								"description": "",
+								"description": "Sensory functions of sensing qualities of bitterness, sweetness, sourness and saltiness. \n\n<i>Inclusions: gustatory functions; impairments such as ageusia and hypogeusia</i>",
 								"subCat": ""
 							},
 							{
 								"catName": "Smell function",
 								"initial": "b",
 								"number": "255",
-								"description": "",
+								"description": "Sensory functions of sensing odours and smells. \n\n<i>Inclusions: functions of smelling, olfactory functions; anosmia, hyposmia</i>",
 								"subCat": ""
 							},
 							{
 								"catName": "Proprioceptive function",
 								"initial": "b",
 								"number": "260",
-								"description": "",
+								"description": "Sensory functions of sensing the relative position of body parts. \n\n<i>Inclusions: functions of statesthesia and kinaesthesia \n\nExclusions: vestibular functions (b235); sensations related to muscles and movement functions (b780)</i>",
 								"subCat": ""
 							},
 							{
 								"catName": "Touch function",
 								"initial": "b",
 								"number": "265",
-								"description": "",
+								"description": "Sensory functions of sensing surfaces and their texture or quality. \n\n<i>Inclusions: functions of touching, feeling of touch; impairments such as numbness, anaesthesia, tingling, paraesthesia and hyperaesthesia \n\nExclusions: sensory functions related to temperature and other stimuli (b270)</i>",
 								"subCat": ""
 							},
 							{
 								"catName": "Sensory functions related to temperature and other stimuli",
 								"initial": "b",
 								"number": "270",
-								"description": "",
+								"description": "Sensory functions of sensing temperature, vibration, pressure and noxious stimulus. \n\n<i>Inclusions: functions of being sensitive to temperature, vibration, shaking or oscillation, superficial pressure, deep pressure, burning sensation or a noxious stimulus \n\nExclusions: touch functions (b265); sensation of pain (b280)</i>",
 								"subCat": [
 									{
 										"catName": "Sensitivity to temperature",
 										"initial": "b",
 										"number": "2700",
-										"description": "",
+										"description": "Sensory functions of sensing cold and heat.",
 										"subCat": ""
 									},
 									{
 										"catName": "Sensitivity to vibration",
 										"initial": "b",
 										"number": "2701",
-										"description": "",
+										"description": "Sensory functions of sensing shaking or oscillation.",
 										"subCat": ""
 									},
 									{
 										"catName": "Sensitivity to pressure",
 										"initial": "b",
 										"number": "2702",
-										"description": "",
+										"description": "Sensory functions of sensing pressure against or on the skin. \n\n<i>Inclusions: sensitivity to touch, numbness, hypaesthesia, hyperaesthesia, paraesethesia, tingling</i>",
 										"subCat": ""
 									},
 									{
 										"catName": "Sensitivity to a noxious stimulus",
 										"initial": "b",
 										"number": "2703",
-										"description": "",
+										"description": "Sensory functions of sensing painful or uncomfortable sensations. \n\n<i>Inclusions: impairments such as hypalgesia, hyperpathia, allodynia, analgesia and anaesthesia dolorosa</i>",
 										"subCat": ""
 									},
 									{
@@ -1460,20 +1460,20 @@
 								"catName": "Sensation of pain",
 								"initial": "b",
 								"number": "280",
-								"description": "",
+								"description": "Sensation of unpleasant feeling indicating potential or actual damage to some body structure. \n\n<i>Inclusions: sensations of generalized or localized pain, in one or more body part, pain in a dermatome, stabbing pain, burning pain, dull pain, aching pain; impairments such as myalgia, analgesia and hyperalgesia</i>",
 								"subCat": [
 									{
 										"catName": "Generalized pain",
 										"initial": "b",
 										"number": "2800",
-										"description": "",
+										"description": "Sensation of unpleasant feeling indicating potential or actual damage to some body structure felt all over, or throughout the body.",
 										"subCat": ""
 									},
 									{
 										"catName": "Pain in body part",
 										"initial": "b",
 										"number": "2801",
-										"description": "",
+										"description": "Sensation of unpleasant feeling indicating potential or actual damage to some body structure felt in a specific part, or parts, of the body.",
 										"subCat": [
 											{
 												"catName": "Pain in head and neck",
@@ -1493,14 +1493,14 @@
 												"catName": "Pain in stomach or abdomen",
 												"initial": "b",
 												"number": "28012",
-												"description": "Sensation of unpleasant feeling indicating potential or actual damage to some body structure felt in the stomach or abdomen. \n\n Inclusions: pain in the pelvic region",
+												"description": "Sensation of unpleasant feeling indicating potential or actual damage to some body structure felt in the stomach or abdomen. \n\n<i>Inclusions: pain in the pelvic region</i>",
 												"subCat": ""
 											},
 											{
 												"catName": "Pain in back",
 												"initial": "b",
 												"number": "28013",
-												"description": "Sensation of unpleasant feeling indicating potential or actual damage to some body structure felt in the back. \n\n Inclusions: pain in the trunk; low backache",
+												"description": "Sensation of unpleasant feeling indicating potential or actual damage to some body structure felt in the back. \n\n<i>Inclusions: pain in the trunk; low backache</i>",
 												"subCat": ""
 											},
 											{
@@ -1514,14 +1514,14 @@
 												"catName": "Pain in lower limb",
 												"initial": "b",
 												"number": "28015",
-												"description": "Sensation of unpleasant feeling indicating potential or actual damage to some body structure felt in one or more joints, including small and big joints. \n Inclusions: pain in the hip; pain in the shoulder",
+												"description": "Sensation of unpleasant feeling indicating potential or actual damage to some body structure felt in one or more joints, including small and big joints. \n\n<i>Inclusions: pain in the hip; pain in the shoulder</i>",
 												"subCat": ""
 											},
 											{
 												"catName": "Pain in joints",
 												"initial": "b",
 												"number": "28016",
-												"description": "Sensation of unpleasant feeling indicating potential or actual damage to some body structure felt in one or more joints, including small and big joints. \n Inclusions: pain in the hip; pain in the shoulder",
+												"description": "Sensation of unpleasant feeling indicating potential or actual damage to some body structure felt in one or more joints, including small and big joints. \n\n<i>Inclusions: pain in the hip; pain in the shoulder</i>",
 												"subCat": ""
 											},
 											{
@@ -1544,21 +1544,21 @@
 										"catName": "Pain in multiple body parts",
 										"initial": "b",
 										"number": "2802",
-										"description": "",
+										"description": "Unpleasant sensation indicating potential or actual damage to some body structure located in several body parts.",
 										"subCat": ""
 									},
 									{
 										"catName": "Radiating pain in a dermatome",
 										"initial": "b",
 										"number": "2803",
-										"description": "",
+										"description": "Unpleasant sensation indicating potential or actual damage to some body structure located in areas of skin served by the same nerve root.",
 										"subCat": ""
 									},
 									{
 										"catName": "Radiating pain in a segment or region",
 										"initial": "b",
 										"number": "2804",
-										"description": "",
+										"description": "Unpleasant sensation indicating potential or actual damage to some body structure located in areas of skin in different body parts not served by the same nerve root.",
 										"subCat": ""
 									}
 								]
@@ -1592,26 +1592,26 @@
 				"catName": "VOICE AND SPEECH FUNCTIONS",
 				"initial": "b",
 				"number": "3",
-				"description": "",
+				"description": "This chapter is about the functions of producing sounds and speech.",
 				"subCat": [
 					{
 						"catName": "Voice functions",
 						"initial": "b",
 						"number": "310",
-						"description": "",
+						"description": "Functions of the production of various sounds by the passage of air through the larynx. \n\n<i>Inclusions: functions of production and quality of voice; functions of phonation, pitch, loudness and other qualities of voice; impairments such as aphonia, dysphonia, hoarseness, hypernasality and hyponasality \n\nExclusions: mental functions of language (b167); articulation functions (b320); alternative vocalization functions (b340)</i>",
 						"subCat": [
 							{
 								"catName": "Production of voice",
 								"initial": "b",
 								"number": "3100",
-								"description": "",
+								"description": "Functions of the production of sound made through coordination of the larynx and surrounding muscles with the respiratory system. \n\n<i>Inclusions: functions of phonation, loudness, impairment of aphonia</i>",
 								"subCat": ""
 							},
 							{
 								"catName": "Quality of voice",
 								"initial": "b",
 								"number": "3101",
-								"description": "",
+								"description": "Functions of the production of characteristics of voice including pitch, resonance and other features. \n\n<i>Inclusions: functions of high or low pitch; impairments such as hypernasality, hyponasality, dysphonia, hoarseness or harshness</i>",
 								"subCat": ""
 							},
 							{
@@ -1634,41 +1634,41 @@
 						"catName": "Articulation functions",
 						"initial": "b",
 						"number": "320",
-						"description": "",
+						"description": "Functions of the production of speech sounds. \n\n<i>Inclusions: functions of enunciation, articulation of phonemes; spastic, ataxic, flaccid dysarthria; anarthria \n\nExclusions: mental functions of language (b167); voice functions (b310)</i>",
 						"subCat": ""
 					},
 					{
 						"catName": "Fluency and rhythm of speech functions",
 						"initial": "b",
 						"number": "330",
-						"description": "",
+						"description": "Functions of the production of flow and tempo of speech. \n\n<i>Inclusions: functions of fluency, rhythm, speed and melody of speech; prosody and intonation; impairments such as stuttering, stammering, cluttering, bradylalia and tachylalia \n\nExclusions: mental functions of language (b167); voice functions (b310); articulation functions (b320)</i>",
 						"subCat": [
 							{
 								"catName": "Fluency of speech",
 								"initial": "b",
 								"number": "3300",
-								"description": "",
+								"description": "Functions of the production of smooth, uninterrupted flow of speech. \n\n<i>Inclusions: functions of smooth connection of speech; impairments such as stuttering, stammering, cluttering, dysfluency, repetition of sounds, words or parts of words and irregular breaks in speech</i>",
 								"subCat": ""
 							},
 							{
 								"catName": "Rhythm of speech",
 								"initial": "b",
 								"number": "3301",
-								"description": "",
+								"description": "Functions of the modulated, tempo and stress patterns in speech. \n\n<i>Inclusions: impairments such as stereotypic or repetitive speech cadence</i>",
 								"subCat": ""
 							},
 							{
 								"catName": "Speed of speech",
 								"initial": "b",
 								"number": "3302",
-								"description": "",
+								"description": "Functions of the rate of speech production. \n\n<i>Inclusions: impairments such as bradylalia and tachylalia</i>",
 								"subCat": ""
 							},
 							{
 								"catName": "Melody of speech",
 								"initial": "b",
 								"number": "3303",
-								"description": "",
+								"description": "Functions of modulation of pitch patterns in speech. \n\n<i>Inclusions: prosody of speech, intonation, melody of speech; impairments such as monotone speech</i>",
 								"subCat": ""
 							},
 							{
@@ -1691,20 +1691,20 @@
 						"catName": "Alternative vocalization functions",
 						"initial": "b",
 						"number": "340",
-						"description": "",
+						"description": "Functions of the production of other manners of vocalization. \n\nInclusions: functions of the production of tones and range of sounds, such as in singing, chanting, babbling and humming; crying aloud and screaming \n\nExclusions: mental functions of language (b167); voice functions (b310); articulation functions (b320); fluency and rhythm of speech functions (b330)</i>",
 						"subCat": [
 							{
 								"catName": "Production of tones",
 								"initial": "b",
 								"number": "3400",
-								"description": "",
+								"description": "Functions of production of musical vocal sounds. \n\n<i>Inclusions: sustaining, modulating and terminating production of single or connected vocalizations with variation in pitch such as in singing, humming and chanting</i>",
 								"subCat": ""
 							},
 							{
 								"catName": "Making a range of sounds",
 								"initial": "b",
 								"number": "3401",
-								"description": "",
+								"description": "Functions of production of a variety of vocalizations. \n\n<i>Inclusions: functions of crying, cooing, gurgling, and babbling, e.g. in children</i>",
 								"subCat": ""
 							},
 							{
@@ -1743,7 +1743,7 @@
 				"catName": "FUNCTIONS OF THE CARDIOVASCULAR, HAEMATOLOGICAL, IMMUNOLOGICAL AND RESPIRATORY SYSTEMS",
 				"initial": "b",
 				"number": "4",
-				"description": "",
+				"description": "This chapter is about the functions involved in the cardiovascular system (functions of the heart and blood vessels), the haematological and immunological systems (functions of blood production and immunity), and the respiratory system (functions of respiration and exercise tolerance).",
 				"subCat": [
 					{
 						"catName": "Functions of the cardiovascular system",
@@ -1755,34 +1755,34 @@
 								"catName": "Heart functions",
 								"initial": "b410",
 								"number": "",
-								"description": "",
+								"description": "Functions of pumping the blood in adequate or required amounts and pressure throughout the body. \n\n<i>Inclusions: functions of heart rate, rhythm and output; contraction force of ventricular muscles; functions of heart valves; pumping the blood through the pulmonary circuit; dynamics of circulation to the heart; impairments such as tachycardia, bradycardia and irregular heart beat and as in heart failure, cardiomyopathy, myocarditis, and coronary insufficiency \n\nExclusions: blood vessel functions (b415); blood pressure functions (b420); exercise tolerance functions (b455)</i>",
 								"subCat": [
 									{
 										"catName": "Heart rate",
 										"initial": "b",
 										"number": "4100",
-										"description": "",
+										"description": "Functions related to the number of times the heart contracts every minute. \n\n<i>Inclusions: impairments such as rates that are too fast (tachycardia) or too slow (bradycardia)</i>",
 										"subCat": ""
 									},
 									{
 										"catName": "Heart rhythm",
 										"initial": "b",
 										"number": "4101",
-										"description": "",
+										"description": "Functions related to the regularity of the beating of the heart. \n\n<i>Inclusions: impairments such as arrhythmias</i>",
 										"subCat": ""
 									},
 									{
 										"catName": "Contraction force of ventricular muscles",
 										"initial": "b",
 										"number": "4102",
-										"description": "",
+										"description": "Functions related to the amount of blood pumped by the ventricular muscles during every beat. \n\n<i>Inclusions: impairments such as diminished cardiac output</i>",
 										"subCat": ""
 									},
 									{
 										"catName": "Blood supply to the heart",
 										"initial": "b",
 										"number": "4103",
-										"description": "",
+										"description": "Functions related to the volume of blood available to the heart muscle. \n\n<i>Inclusions: impairments such as coronary ischaemia</i>",
 										"subCat": ""
 									},
 									{
@@ -1805,27 +1805,27 @@
 								"catName": "Blood vessel functions",
 								"initial": "b",
 								"number": "415",
-								"description": "",
+								"description": "Functions of transporting blood throughout the body. \n\n<i>Inclusions: functions of arteries, capillaries and veins; vasomotor function; functions of pulmonary arteries, capillaries and veins; functions of valves of veins, blockage or constriction of arteries; atherosclerosis, arteriosclerosis, thromboembolism and varicose veins \n\nExclusions: heart functions (b410); blood pressure functions (b420); haematological system functions (b430); exercise tolerance functions (b455)</i>",
 								"subCat": [
 									{
 										"catName": "Functions of arteries",
 										"initial": "b",
 										"number": "4150",
-										"description": "",
+										"description": "Functions related to blood flow in the arteries. \n\n<i>Inclusions: impairments such as in arterial dilation; arterial constriction such as in intermittent claudication</i>",
 										"subCat": ""
 									},
 									{
 										"catName": "Functions of capillaries",
 										"initial": "b",
 										"number": "4151",
-										"description": "",
+										"description": "Functions related to blood flow in the capillaries.",
 										"subCat": ""
 									},
 									{
 										"catName": "Functions of veins",
 										"initial": "b4152",
 										"number": "",
-										"description": "",
+										"description": "Functions related to blood flow in the veins, and the functions of valves of veins. \n\n<i>Inclusions: impairments such as venous dilation; venous constriction; insufficient closing of valves as in varicose veins</i>",
 										"subCat": ""
 									},
 									{
@@ -1848,7 +1848,7 @@
 								"catName": "Blood pressure functions",
 								"initial": "b",
 								"number": "420",
-								"description": "",
+								"description": "Functions of maintaining the pressure of blood within the arteries. \n\n<i>Inclusions: functions of maintenance of blood pressure; increased and decreased blood pressure; impairments such as in hypotension, hypertension and postural hypotension \n\nExclusions: heart functions (b410); blood vessel functions (b415); exercise tolerance functions (b455)</i>",
 								"subCat": [
 									{
 										"catName": "Increased blood pressure",
@@ -1906,7 +1906,7 @@
 								"catName": "Haematological system functions",
 								"initial": "b",
 								"number": "430",
-								"description": "Functions of blood production, oxygen and metabolite carriage, and clotting. \n\n Inclusions: functions of the production of blood and bone marrow; oxygen-carrying functions of blood; blood-related functions of spleen; metabolite carrying functions of blood; clotting impairments such as anaemia, haemophilia and other clotting dysfunctions \n\n Exclusions: functions of the cardiovascular system (b410-b429); immunological system functions (b435); exercise tolerance functions (b455)",
+								"description": "Functions of blood production, oxygen and metabolite carriage, and clotting. \n\n<i>Inclusions: functions of the production of blood and bone marrow; oxygen-carrying functions of blood; blood-related functions of spleen; metabolite carrying functions of blood; clotting impairments such as anaemia, haemophilia and other clotting dysfunctions \n\nExclusions: functions of the cardiovascular system (b410-b429); immunological system functions (b435); exercise tolerance functions (b455)</i>",
 								"subCat": [
 									{
 										"catName": "Production of blood",
@@ -1956,7 +1956,7 @@
 								"catName": "Immunological system functions",
 								"initial": "b",
 								"number": "435",
-								"description": "Functions of the body related to protection against foreign substances, including infections, by specific and non-specific immune responses. \n\n Inclusions: immune response (specific and non-specific); hypersensitivity reactions; functions of lymphatic vessels and nodes; functions of cell mediated immunity, antibody-mediated immunity; response to immunization; impairments such as in autoimmunity, allergic reactions, lymphadenitis and lymphoedema \n\n Exclusions: haematological system functions (b430)",
+								"description": "Functions of the body related to protection against foreign substances, including infections, by specific and non-specific immune responses. \n\n<i>Inclusions: immune response (specific and non-specific); hypersensitivity reactions; functions of lymphatic vessels and nodes; functions of cell mediated immunity, antibody-mediated immunity; response to immunization; impairments such as in autoimmunity, allergic reactions, lymphadenitis and lymphoedema \n\nExclusions: haematological system functions (b430)</i>",
 								"subCat": [
 									{
 										"catName": "Immune response",
@@ -1998,7 +1998,7 @@
 										"catName": "Hypersensitivity reactions",
 										"initial": "b",
 										"number": "4351",
-										"description": "Functions of the body's response of increased sensitization to foreign substances, such as in sensitivities to different antigens. \n\n Inclusions: impairments such as hypersensitivities or allergies \n\n Exclusions: tolerance to food (b5153)",
+										"description": "Functions of the body's response of increased sensitization to foreign substances, such as in sensitivities to different antigens. \n\n<i>Inclusions: impairments such as hypersensitivities or allergies \n\nExclusions: tolerance to food (b5153)</i>",
 										"subCat": ""
 									},
 									{
@@ -2034,7 +2034,7 @@
 							{
 								"catName": "Functions of the haematological and immunological systems, other specified and unspecified",
 								"initial": "b",
-								"number": "435",
+								"number": "439",
 								"description": "",
 								"subCat": ""
 							}
@@ -2050,27 +2050,27 @@
 								"catName": "Respiration functions",
 								"initial": "b",
 								"number": "440",
-								"description": "Functions of inhaling air into the lungs, the exchange of gases between air and blood, and exhaling air. \n\n Inclusions: functions of respiration rate, rhythm and depth; impairments such as apnoea, hyperventilation, irregular respiration, paradoxical respiration, and bronchial spasm, and as in pulmonary emphysema; reduction in airflow through upper and lower airways \n\n Exclusions: respiratory muscle functions (b445); additional respiratory functions (b450); exercise tolerance functions (b455)",
+								"description": "Functions of inhaling air into the lungs, the exchange of gases between air and blood, and exhaling air. \n\n<i>Inclusions: functions of respiration rate, rhythm and depth; impairments such as apnoea, hyperventilation, irregular respiration, paradoxical respiration, and bronchial spasm, and as in pulmonary emphysema; reduction in airflow through upper and lower airways \n\nExclusions: respiratory muscle functions (b445); additional respiratory functions (b450); exercise tolerance functions (b455)</i>",
 								"subCat": [
 									{
 										"catName": "Respiration rate",
 										"initial": "b",
 										"number": "4400",
-										"description": "Functions related to the number of breaths taken per minute. \n\n Inclusions: impairments such as rates that are too fast (tachypnoea) or too slow (bradypnoea)",
+										"description": "Functions related to the number of breaths taken per minute. \n\n<i>Inclusions: impairments such as rates that are too fast (tachypnoea) or too slow (bradypnoea)</i>",
 										"subCat": ""
 									},
 									{
 										"catName": "Respiratory rhythm",
 										"initial": "b",
 										"number": "4401",
-										"description": "Functions related to the periodicity and regularity of breathing. \n\n Inclusions: impairments such as irregular breathing",
+										"description": "Functions related to the periodicity and regularity of breathing. \n\n<i>Inclusions: impairments such as irregular breathing</i>",
 										"subCat": ""
 									},
 									{
 										"catName": "Depth of respiration",
 										"initial": "b",
 										"number": "4402",
-										"description": "Functions related to the volume of expansion of the lungs during breathing. \n\n Inclusions: impairments such as superficial or shallow respiration",
+										"description": "Functions related to the volume of expansion of the lungs during breathing. \n\n<i>Inclusions: impairments such as superficial or shallow respiration</i>",
 										"subCat": ""
 									},
 									{
@@ -2151,7 +2151,7 @@
 								"catName": "Additional functions of the respiratory system",
 								"initial": "b",
 								"number": "450",
-								"description": "",
+								"description": "Additional functions related to breathing, such as producing and transporting airway secretions, coughing, sneezing and yawning. \n\n<i>Inclusions: functions of blowing, whistling and mouth breathing</i>",
 								"subCat": [
 									{
 										"catName": "Functions of breathing thorugh the mouth",
@@ -2237,7 +2237,7 @@
 								"catName": "Exercise tolerance functions",
 								"initial": "b",
 								"number": "455",
-								"description": "",
+								"description": "Functions related to respiratory and cardiovascular capacity as required for enduring physical exertion. \n\n<i>Inclusions: functions of physical endurance, aerobic capacity, stamina and fatiguability \n\nExclusions: functions of the cardiovascular system (b410-b429); haematological system functions (b430); respiration functions (b440); respiratory muscle functions (b445); additional respiratory functions (b450)</i>",
 								"subCat": [
 									{
 										"catName": "General physical endurance",
@@ -2280,11 +2280,11 @@
 								"catName": "Sensations associated with cardiovascular and respiratory functions",
 								"initial": "b",
 								"number": "460",
-								"description": "Sensations such as missing a heart beat, palpitation and shortness of breath. \n\n Inclusions: sensations of tightness of chest, feelings of irregular beat, dyspnoea, air hunger, choking, gagging and wheezing \n\n Exclusions: sensation of pain (b280)",
+								"description": "Sensations such as missing a heart beat, palpitation and shortness of breath. \n\n<i>Inclusions: sensations of tightness of chest, feelings of irregular beat, dyspnoea, air hunger, choking, gagging and wheezing \n\n Exclusions: sensation of pain (b280)</i>",
 								"subCat": ""
 							},
 							{
-								"catName": "",
+								"catName": "Additional functions and sensations of the cardiovascular and respiratory systems, other specified and unspecified",
 								"initial": "b",
 								"number": "469",
 								"description": "",
@@ -2312,7 +2312,7 @@
 				"catName": "FUNCTIONS OF THE DIGESTIVE, METABOLIC AND ENDOCRINE SYSTEMS",
 				"initial": "b",
 				"number": "5",
-				"description": "",
+				"description": "This chapter is about the functions of ingestion, digestion and elimination, as well as functions involved in metabolism and the endocrine glands.",
 				"subCat": [
 					{
 						"catName": "Functions related to the digestive system",
@@ -2324,7 +2324,7 @@
 								"catName": "Ingestion functions",
 								"initial": "b",
 								"number": "510",
-								"description": "Functions related to taking in and manipulating solids or liquids through the mouth into the body. \n\n Inclusions: functions of sucking, chewing and biting, manipulating food in the mouth, salivation, swallowing, burping, regurgitation, spitting and vomiting; impairments such as dysphagia, aspiration of food, aerophagia, excessive salivation, drooling and insufficient salivation \n\n Exclusions: sensations associated with digestive system (b535)",
+								"description": "Functions related to taking in and manipulating solids or liquids through the mouth into the body. \n\n<i>Inclusions: functions of sucking, chewing and biting, manipulating food in the mouth, salivation, swallowing, burping, regurgitation, spitting and vomiting; impairments such as dysphagia, aspiration of food, aerophagia, excessive salivation, drooling and insufficient salivation \n\nExclusions: sensations associated with digestive system (b535)</i>",
 								"subCat": [
 									{
 										"catName": "Sucking",
@@ -2365,13 +2365,13 @@
 										"catName": "Swallowing",
 										"initial": "b",
 										"number": "5105",
-										"description": "",
+										"description": "Functions of clearing substances, such as food, drink or saliva through the oral cavity, pharynx and oesophagus into the stomach at an appropriate rate and speed. \n\n<i>Inclusions: oral, pharyngeal or oesophageal dysphagia; impairments in oesophageal passage substances</i>",
 										"subCat": [
 											{
 												"catName": "Oral swallowing",
 												"initial": "b",
 												"number": "51050",
-												"description": "Function of clearing substances through the oral cavity at an appropriate rate and speed. \n\n Inclusions: drooling",
+												"description": "Function of clearing substances through the oral cavity at an appropriate rate and speed. \n\n<i>Inclusions: drooling</i>",
 												"subCat": ""
 											},
 											{
@@ -2408,7 +2408,7 @@
 										"catName": "Functions of expelling the contents of the stomach, oesophagus or pharynx",
 										"initial": "b",
 										"number": "5106",
-										"description": "",
+										"description": "Functions of moving substances such as food, liquid, medications, objects intentionally or unintentionally swallowed in the reverse direction to ingestion, such as in regurgitation and vomiting.",
 										"subCat": [
 											{
 												"catName": "Vomiting",
@@ -2462,30 +2462,119 @@
 								"number": "515",
 								"description": "",
 								"subCat": [
-									{}
+									{
+										"catName": "Transport of food through stomach and intestines",
+										"initial": "b",
+										"number": "5150",
+										"description": "Peristalsis and related functions that mechanically move food through stomach and intestines.",
+										"subCat": ""
+									},
+									{
+										"catName": "Breakdown of food",
+										"initial": "b",
+										"number": "5151",
+										"description": "Functions of mechanically reducing food to smaller particles in the gastrointestinal tract.",
+										"subCat": ""
+									},
+									{
+										"catName": "Absorption of nutrients",
+										"initial": "b",
+										"number": "5152",
+										"description": "Functions of passing food and drink nutrients into the blood stream from along the intestines.",
+										"subCat": ""
+									},
+									{
+										"catName": "Tolerance to food",
+										"initial": "b",
+										"number": "5153",
+										"description": "Functions of accepting suitable food and drink for digestion and rejecting what is unsuitable. \n\n<i>Inclusions: impairments such as hypersensitivities, gluten intolerance</i>",
+										"subCat": ""
+									},
+									{
+										"catName": "Digestive functions, other specified",
+										"initial": "b",
+										"number": "5158",
+										"description": "",
+										"subCat": ""
+									},
+									{
+										"catName": "Digestive functions, unspecified",
+										"initial": "b",
+										"number": "5159",
+										"description": "",
+										"subCat": ""
+									}
 								]
 							},
 							{
 								"catName": "Assimilation functions",
 								"initial": "b",
 								"number": "520",
-								"description": "",
+								"description": "Functions by which nutrients are converted into components of the living body. \n\n<i>Inclusions: functions of storage of nutrients in the body \n\nExclusions: digestive functions (b515); defecation functions (b525); weight maintenance functions (b530); general metabolic functions (b540)</i>",
 								"subCat": ""
 							},
 							{
 								"catName": "Defecation functions",
 								"initial": "b",
 								"number": "525",
-								"description": "",
+								"description": "Functions of elimination of wastes and undigested food as faeces and related functions. \n\n<i>Inclusions: functions of elimination, faecal consistency, frequency of defecation; faecal continence, flatulence; impairments such as constipation, diarrhoea, watery stool and anal sphincter incompetence or incontinence \n\nExclusions: digestive functions (b515); assimilation functions (b520); sensations associated with the digestive system (b535)</i>",
 								"subCat": [
-									{}
+									{
+										"catName": "Elimination of faeces",
+										"initial": "b",
+										"number": "5250",
+										"description": "Functions of the elimination of waste from the rectum, including the functions of contraction of the abdominal muscles in doing so.",
+										"subCat": ""
+									},
+									{
+										"catName": "Faecal consistency",
+										"initial": "b",
+										"number": "5251",
+										"description": "Consistency of faeces such as hard, firm, soft or watery.",
+										"subCat": ""
+									},
+									{
+										"catName": "Frequency of defecation",
+										"initial": "b",
+										"number": "5252",
+										"description": "Functions involved in the frequency of defecation.",
+										"subCat": ""
+									},
+									{
+										"catName": "Faecal continence",
+										"initial": "b",
+										"number": "5253",
+										"description": "Functions involved in voluntary control over the elimination function.",
+										"subCat": ""
+									},
+									{
+										"catName": "Flatulence",
+										"initial": "b",
+										"number": "5254",
+										"description": "Functions involved in the expulsion of excessive amounts of air or gases from the intestines.",
+										"subCat": ""
+									},
+									{
+										"catName": "Defecation functions, other specified",
+										"initial": "b",
+										"number": "5258",
+										"description": "",
+										"subCat": ""
+									},
+									{
+										"catName": "Defecation functions, unspecified",
+										"initial": "b",
+										"number": "5259",
+										"description": "",
+										"subCat": ""
+									}
 								]
 							},
 							{
 								"catName": "Weight maintenance functions",
 								"initial": "b",
 								"number": "530",
-								"description": "Functions of maintaining appropriate body weight, including weight gain during the developmental period. \n\n Inclusions: functions of maintenance of acceptable Body Mass Index (BMI); and impairments such as underweight, cachexia, wasting, overweight, emaciation and such as in primary and secondary obesity \n\n Exclusions: assimilation functions (b520); general metabolic functions (b540); endocrine gland functions (b555)",
+								"description": "Functions of maintaining appropriate body weight, including weight gain during the developmental period. \n\n<i>Inclusions: functions of maintenance of acceptable Body Mass Index (BMI); and impairments such as underweight, cachexia, wasting, overweight, emaciation and such as in primary and secondary obesity \n\nExclusions: assimilation functions (b520); general metabolic functions (b540); endocrine gland functions (b555)</i>",
 								"subCat": ""
 							},
 							{
@@ -2494,7 +2583,41 @@
 								"number": "535",
 								"description": "",
 								"subCat": [
-									{}
+									{
+										"catName": "Sensation of nausea",
+										"initial": "b",
+										"number": "5350",
+										"description": "Sensation of needing to vomit.",
+										"subCat": ""
+									},
+									{
+										"catName": "Feeling bloated",
+										"initial": "b",
+										"number": "5351",
+										"description": "Sensation of distension of the stomach or abdomen.",
+										"subCat": ""
+									},
+									{
+										"catName": "Sensation of abdominal cramp",
+										"initial": "b",
+										"number": "5352",
+										"description": "Sensation of spasmodic or painful muscular contractions of the smooth muscles of the gastrointestinal tract.",
+										"subCat": ""
+									},
+									{
+										"catName": "Sensations associated with the digestive system, other specified",
+										"initial": "b",
+										"number": "5358",
+										"description": "",
+										"subCat": ""
+									},
+									{
+										"catName": "Sensations associated with the digestive system, unspecified",
+										"initial": "b",
+										"number": "5359",
+										"description": "",
+										"subCat": ""
+									}
 								]
 							},
 							{
@@ -2516,13 +2639,13 @@
 								"catName": "General metabolic functions",
 								"initial": "b",
 								"number": "540",
-								"description": "",
+								"description": "Functions of regulation of essential components of the body such as carbohydrates, proteins and fats, the conversion of one to another, and their breakdown into energy. \n\n<i>Inclusions: functions of metabolism, basal metabolic rate, metabolism of carbohydrate, protein and fat, catabolism, anabolism, energy production in the body; increase or decrease in metabolic rate \n\nExclusions: assimilation functions (b520); weight maintenance functions (b530); water, mineral and electrolyte balance functions (b545); thermoregulatory functions (b550); endocrine glands functions (b555)</i>",
 								"subCat": [
 									{
 										"catName": "Basal metabolic rate",
 										"initial": "b",
 										"number": "5400",
-										"description": "Functions involved in oxygen consumption of the body at specified conditions of rest and temperature. \n\n Inclusions: increase or decrease in basic metabolic rate; impairments such as in hyperthyroidism and hypothyroidism",
+										"description": "Functions involved in oxygen consumption of the body at specified conditions of rest and temperature. \n\n<i>Inclusions: increase or decrease in basic metabolic rate; impairments such as in hyperthyroidism and hypothyroidism</i>",
 										"subCat": ""
 									},
 									{
@@ -2566,13 +2689,13 @@
 								"catName": "Water, mineral and electrolyte balance functions",
 								"initial": "b",
 								"number": "545",
-								"description": "",
+								"description": "Functions of the regulation of water, minerals and electrolytes in the body. \n\n<i>Inclusions: functions of water balance, balance of minerals such as calcium, zinc and iron, and balance of electrolytes such as sodium and potassium; impairments such as in water retention, dehydration, hypercalcaemia, hypocalcaemia, iron deficiency, hypernatraemia, hyponatraemia, hyperkalaemia and hypokalaemia \n\nExclusions: haematological system functions (b430); general metabolic functions (b540); endocrine gland functions (b555)</i>",
 								"subCat": [
 									{
 										"catName": "Water balance",
 										"initial": "b",
 										"number": "5450",
-										"description": "",
+										"description": "Functions involved in maintaining the level or amount of water in the body. \n\n<i>Inclusions: impairments such as in dehydration and rehydration</i>",
 										"subCat": [
 											{
 												"catName": "Water retention",
@@ -2638,20 +2761,20 @@
 								"catName": "Thermoregulatory functions",
 								"initial": "b",
 								"number": "550",
-								"description": "",
+								"description": "Functions of the regulation of body temperature. \n\n<i>Inclusions: functions of maintenance of body temperature; impairments such as hypothermia, hyperthermia \n\nExclusions: general metabolic functions (b540); endocrine gland functions (b555)</i>",
 								"subCat": [
 									{
 										"catName": "Body temperature",
 										"initial": "b",
 										"number": "5500",
-										"description": "Functions involved in regulating the core temperature of the body. \n\n Inclusions: impairments such as hyperthermia or hypothermia",
+										"description": "Functions involved in regulating the core temperature of the body. \n\n<i>Inclusions: impairments such as hyperthermia or hypothermia</i>",
 										"subCat": ""
 									},
 									{
 										"catName": "Maintenance of body temperature",
 										"initial": "b",
 										"number": "5501",
-										"description": "Functions involved in maintaining optimal body temperature as environmental temperature changes. \n\n Inclusions: tolerance to heat or cold",
+										"description": "Functions involved in maintaining optimal body temperature as environmental temperature changes. \n\n<i>Inclusions: tolerance to heat or cold</i>",
 										"subCat": ""
 									},
 									{
@@ -2674,13 +2797,13 @@
 								"catName": "Endocrine gland functions",
 								"initial": "b",
 								"number": "555",
-								"description": "",
+								"description": "Functions of production and regulation of hormonal levels in the body, including cyclical changes.\n\n<i>Inclusions: functions of hormonal balance, hyperpituitarism, hypopituitarism, hyperthyroidism, hypothyroidism, hyperadrenalism, hypoadrenalism, hyperparathyroidism, hypoparathyroidism, hypergonadism, hypogonadism \n\nExclusions: general metabolic functions (b540); water, mineral and electrolyte balance functions (b545); thermoregulatory functions (b550); sexual functions (b640); menstruation functions (b650)</i>",
 								"subCat": [
 									{
 										"catName": "Endocrine gland functions",
 										"initial": "b",
 										"number": "5550",
-										"description": "",
+										"description": "Functions associated with the onset of puberty and manifestations of primary and secondary sexual characteristics.",
 										"subCat": [
 											{
 												"catName": "Body and pubic hair development",
@@ -2750,7 +2873,7 @@
 				"catName": "GENITOURINARY AND REPRODUCTIVE FUNCTIONS",
 				"initial": "b",
 				"number": "6",
-				"description": "",
+				"description": "This chapter is about the functions of urination and the reproductive functions, including sexual and procreative functions.",
 				"subCat": [
 					{
 						"catName": "Urinary functions",
@@ -2762,20 +2885,20 @@
 								"catName": "Urinary excretory functions",
 								"initial": "b",
 								"number": "610",
-								"description": "",
+								"description": "Functions of filtration and collection of the urine. \n\n<i>Inclusions: functions of urinary filtration, collection of urine; impairments such as in renal insufficiency, anuria, oliguria, hydronephrosis, hypotonic urinary bladder and ureteric obstruction \n\nExclusions: urination functions (b620)</i>",
 								"subCat": [
 									{
 										"catName": "Filtration of urine",
 										"initial": "b",
 										"number": "6100",
-										"description": "",
+										"description": "Functions of filtration of urine by the kidneys.",
 										"subCat": ""
 									},
 									{
 										"catName": "Collection of urine",
 										"initial": "b",
 										"number": "6101",
-										"description": "",
+										"description": "Functions of collection and storage of urine by the ureters and bladder.",
 										"subCat": ""
 									},
 									{
@@ -2798,13 +2921,13 @@
 								"catName": "Urination functions",
 								"initial": "b",
 								"number": "620",
-								"description": "",
+								"description": "Functions of discharge of urine from the urinary bladder. \n\n<i>Inclusions: functions of urination, frequency of urination, urinary continence; impairments such as in stress, urge, reflex, overflow, continuous incontinence, dribbling, automatic bladder, polyuria, urinary retention and urinary urgency \n\nExclusions: urinary excretory functions (b610); sensations associated with urinary functions (b630)</i>",
 								"subCat": [
 									{
 										"catName": "Urination",
 										"initial": "b",
 										"number": "6200",
-										"description": "Functions of voiding the urinary bladder. \n\n Inclusions: impairments such as in urine retention",
+										"description": "Functions of voiding the urinary bladder. \n\n<i>Inclusions: impairments such as in urine retention</i>",
 										"subCat": ""
 									},
 									{
@@ -2818,7 +2941,7 @@
 										"catName": "Urinary continence",
 										"initial": "b",
 										"number": "6202",
-										"description": "Functions of control over urination. \n\n Inclusions: impairments such as in stress, urge, reflex, continuous and mixed incontinence",
+										"description": "Functions of control over urination. \n\n<i>Inclusions: impairments such as in stress, urge, reflex, continuous and mixed incontinence</i>",
 										"subCat": ""
 									},
 									{
@@ -2841,7 +2964,7 @@
 								"catName": "Sensations associated with urinary functions",
 								"initial": "b",
 								"number": "630",
-								"description": "Sensations arising from voiding and related urinary functions.\n\n Inclusions: sensations of incomplete voiding of urine, feeling of fullness of bladder \n\n Exclusions: sensations of pain (b280); urination functions (b620)",
+								"description": "Sensations arising from voiding and related urinary functions.\n\n<i>Inclusions: sensations of incomplete voiding of urine, feeling of fullness of bladder \n\n Exclusions: sensations of pain (b280); urination functions (b620)</i>",
 								"subCat": ""
 							},
 							{
@@ -2863,7 +2986,7 @@
 								"catName": "Sexual functions",
 								"initial": "b",
 								"number": "640",
-								"description": "",
+								"description": "Mental and physical functions related to the sexual act, including the arousal, preparatory, orgasmic and resolution stages. \n\n<i>Inclusions: functions of the sexual arousal, preparatory, orgasmic and resolution phase; functions related to sexual interest, performance, penile erection, clitoral erection, vaginal lubrication, ejaculation, orgasm; impairments such as in impotence, frigidity, vaginismus, premature ejaculation, priaprism and delayed ejaculation \n\nExclusions: procreation functions (b660); sensations associated with genital and reproductive functions (b670)</i>",
 								"subCat": [
 									{
 										"catName": "Functions of sexual arousal phase",
@@ -2890,7 +3013,7 @@
 										"catName": "Functions of sexual resolution phase",
 										"initial": "b",
 										"number": "6403",
-										"description": "Functions of satisfaction after orgasm and accompanying relaxation. \n\n Inclusions: impairments such as dissatisfaction with orgasm",
+										"description": "Functions of satisfaction after orgasm and accompanying relaxation. \n\n<i>Inclusions: impairments such as dissatisfaction with orgasm</i>",
 										"subCat": ""
 									},
 									{
@@ -2913,13 +3036,13 @@
 								"catName": "Menstruation functions",
 								"initial": "b",
 								"number": "650",
-								"description": "",
+								"description": "Functions associated with the menstrual cycle, including regularity of menstruation and discharge of menstrual fluids. \n\nInclusions: functions of regularity and interval of menstruation, extent of menstrual bleeding, menarche, menopause; impairments such as primary and secondary amenorrhoea, menorrhagia, polymenorrhoea, retrograde menstruation and premenstrual tension \n\nExclusions: sexual functions (b640); procreation functions (b660); sensations associated with genital and reproductive functions (b670); sensation of pain (b280)</i>",
 								"subCat": [
 									{
 										"catName": "Regularity of menstrual cycle",
 										"initial": "b",
 										"number": "6500",
-										"description": "Functions involved in the regularity of the menstrual cycle. \n\n Inclusions: too frequent or too few occurrences of menstruation",
+										"description": "Functions involved in the regularity of the menstrual cycle. \n\n<i>Inclusions: too frequent or too few occurrences of menstruation</i>",
 										"subCat": ""
 									},
 									{
@@ -2933,7 +3056,7 @@
 										"catName": "Extent of menstrual bleeding",
 										"initial": "b",
 										"number": "6502",
-										"description": "Functions involved in the quantity of menstrual flow. \n\n Inclusions: too little menstrual flow (hypomenorrhoea); too much menstrual flow (menorrhagia, hypermenorrhoea)",
+										"description": "Functions involved in the quantity of menstrual flow. \n\n<i>Inclusions: too little menstrual flow (hypomenorrhoea); too much menstrual flow (menorrhagia, hypermenorrhoea)</i>",
 										"subCat": ""
 									},
 									{
@@ -2947,7 +3070,7 @@
 										"catName": "Cessation of menstruation",
 										"initial": "b",
 										"number": "6504",
-										"description": "Functions related to the temporary or permanent cessation of menstruation. \n\n Inclusions: amenorrhea, menopause, praecoxial menopause",
+										"description": "Functions related to the temporary or permanent cessation of menstruation. \n\n<i>Inclusions: amenorrhea, menopause, praecoxial menopause</i>",
 										"subCat": ""
 									},
 									{
@@ -2970,13 +3093,13 @@
 								"catName": "Procreation functions",
 								"initial": "b",
 								"number": "660",
-								"description": "",
+								"description": "Functions associated with fertility, pregnancy, childbirth and lactation. \n\nInclusions: functions of male fertility and female fertility, pregnancy and childbirth, and lactation; impairments such as azoospermia, oligozoospermia, agalactorrhoea, galactorrhoea, alactation and such as in subfertility, sterility, spontaneous abortions, ectopicpregnancy, miscarriage, small fetus, hydramnios and premature childbirth, and delayed childbirth \n\nExclusions: sexual functions (b640); menstruation functions (b650)</i>",
 								"subCat": [
 									{
 										"catName": "Functions related to fertility",
 										"initial": "b",
 										"number": "6600",
-										"description": "Functions related to the ability to produce gametes for procreation. \n\n Inclusions: impairments such as in subfertility and sterility \n\n Exclusions: Sexual functions (b640)",
+										"description": "Functions related to the ability to produce gametes for procreation. \n\n<i>Inclusions: impairments such as in subfertility and sterility \n\nExclusions: Sexual functions (b640)</i>",
 										"subCat": ""
 									},
 									{
@@ -3020,7 +3143,7 @@
 								"catName": "Sensations associated with genital and reproductive functions",
 								"initial": "b",
 								"number": "670",
-								"description": "",
+								"description": "Sensations associated with sexual intercourse, menstruation, and related genital or reproductive functions \n\n<i>Inclusions: sensations of dyspareunia, dysmenorrhoea, hot flushes during menopause and night sweats during menopause, sensations associated with self-stimulation of the genitals \n\nExclusions: sensation of pain (b280); sensations associated with urinary functions (b630); sexual functions (b640); menstruation functions (b650); procreation functions (b660)</i>",
 								"subCat": [
 									{
 										"catName": "Sensations associated with sexual intercourse",
@@ -3040,14 +3163,14 @@
 										"catName": "Sensations associated with menopause",
 										"initial": "b",
 										"number": "6702",
-										"description": "Sensations associated with the cessation of menstrual cycle. \n\n Inclusions: hot flushes and night sweats during menopause",
+										"description": "Sensations associated with the cessation of menstrual cycle. \n\n<i>Inclusions: hot flushes and night sweats during menopause</i>",
 										"subCat": ""
 									},
 									{
 										"catName": "Sensations associated with genital functions",
 										"initial": "b",
 										"number": "6703",
-										"description": "Sensations associated with arousal of the genitals. \n\n Inclusions: sensations associated with self-stimulation of the genitals \n\n Exclusions: sexual functions (b640); procreation functions (b660)",
+										"description": "Sensations associated with arousal of the genitals. \n\n<i>Inclusions: sensations associated with self-stimulation of the genitals \n\nExclusions: sexual functions (b640); procreation functions (b660)</i>",
 										"subCat": ""
 									},
 									{

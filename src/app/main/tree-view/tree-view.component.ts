@@ -1,52 +1,92 @@
-import { Component, OnInit, Injectable, Input } from '@angular/core';
-import { Data, SnackBarOverviewExample } from '../json-data.component';
+import { Component, OnInit } from '@angular/core';
+import { Data } from '../json-data.component';
 import * as json from '../../../assets/icf.json';
 import { MatSnackBar } from '@angular/material';
-import { Subject } from 'rxjs';
-import { Observable } from "rxjs";
 import { HttpClient } from '@angular/common/http';
-import { animate, state, style, transition, trigger } from '@angular/animations';
 
 @Component({
   selector: 'app-tree-view',
   templateUrl: './tree-view.component.html',
-  styleUrls: ['./tree-view.component.scss']
+  styleUrls: ['./tree-view.component.css']
 })
 
-@Input() @Injectable()
+
 export class TreeViewComponent implements OnInit {
 
   private data: Data = new Data();
   private chosenArray: Array<any> = new Array();
   private panelOpenState: string = "0";
   private panelOpenState2: string = "0";
-  private itemExist;
-
   constructor(private snackBar: MatSnackBar, private http: HttpClient) { }
+  private chosenPanelExpanded: boolean;
 
   ngOnInit() {
     this.assignData();
     this.http.get('../../../assets/icf.json')
-      .subscribe(data => { this.data = JSON.parse(JSON.stringify(data)); console.log(this.data) });
-    this.itemExist = this.chosenArray.findIndex(x => x == this.chosenArray)
+      .subscribe(data => { this.data = JSON.parse(JSON.stringify(data)) });
+    this.chosenArray.findIndex(x => x == this.chosenArray);
+
   }
 
-
+  public arrayUpdate() {
+    return this.chosenArray.length
+  }
 
   private addToArray(item) {
     if (this.chosenArray.indexOf(item) === -1) {
       this.chosenArray.push(item)
-    } else this.openSnackBar("Item already added", "Close")
-    console.log(this.chosenArray)
-  }
-  private deleteArrayItem(item) {
-    this.chosenArray.splice(this.chosenArray.indexOf(item), 1);
-  }
-  private clearChosenArray() {
-    this.chosenArray = []
+    } else setTimeout(() => {
+      this.openSnackBar("Item already added", "Close")
+    }, 200);
   }
 
-  public assignData() {
+  private scrollToChosenArray(item) {
+    if (this.chosenArray.indexOf(item) === -1) {
+      this.addToArray(item)
+    }
+    setTimeout(() => {
+      document.getElementById('chosenArray').scrollIntoView({ behavior: "smooth", block: "center", inline: "nearest" })
+      this.chosenPanelExpanded = true;
+    }, 100);
+
+  }
+
+
+  private deleteArrayItem(item) {
+    this.chosenArray.splice(this.chosenArray.indexOf(item), 1);
+    if (this.chosenArray.length == 0) {
+      this.chosenPanelExpanded = false;
+    }
+  }
+
+  private deleteChosenArray() {
+    this.chosenArray = new Array();
+    this.chosenPanelExpanded = false;
+  }
+
+  private resetArrayItem(item) {
+    item.qualifier = '';
+    this.chosenArray.splice(this.chosenArray.indexOf(item), 1);
+    if (this.chosenArray.length == 0) {
+      this.chosenPanelExpanded = false;
+    }
+    setTimeout(() => {
+      this.openSnackBar("Item reseted", "Close");
+    }, 200);
+  }
+
+  private resetChosenArray() {
+    for (let i of this.chosenArray) {
+      i.qualifier = ''
+    }
+    this.chosenArray = new Array();
+    this.chosenPanelExpanded = false;
+    setTimeout(() => {
+      this.openSnackBar("List reseted", "Close")
+    }, 200);
+  }
+
+  private assignData() {
     let sample = JSON.parse(JSON.stringify(this.getJson()));
     this.data = sample.default;
   }
@@ -56,17 +96,20 @@ export class TreeViewComponent implements OnInit {
     return data
   }
 
-  copyToClipboard(item) {
+  private copyToClipboard(item) {
     document.addEventListener('copy', (e: ClipboardEvent) => {
       e.clipboardData.setData('text/plain', (item));
       e.preventDefault();
       document.removeEventListener('copy', null);
     });
     document.execCommand('copy');
-    this.openSnackBar('Copied to clipboard', 'Close');
+    setTimeout(() => {
+      this.openSnackBar('Copied to clipboard', "Close");
+    }, 200);
   }
 
-  openSnackBar(message: string, action: string) {
+
+  private openSnackBar(message: string, action: string) {
     this.snackBar.open(message, action, {
       duration: 3000,
     });
@@ -75,5 +118,6 @@ export class TreeViewComponent implements OnInit {
   private log(log) {
     console.log(log)
   }
+
 
 }
