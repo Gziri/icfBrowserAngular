@@ -27,17 +27,17 @@ import { MatGridListModule } from '@angular/material/grid-list';
 import { MatSnackBarModule } from '@angular/material/snack-bar';
 import { MatTooltipModule } from '@angular/material/tooltip';
 import { MatInputModule } from '@angular/material/input';
-import { FormsModule } from '@angular/forms';
+import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { MatSelectModule } from '@angular/material/select';
 import { DragDropModule } from '@angular/cdk/drag-drop';
-import { MatDialogModule } from '@angular/material';
+import { MatDialogModule, MatAutocompleteModule } from '@angular/material';
 
 @NgModule({
   declarations: [
     AppComponent,
     MainComponent,
     TreeViewComponent,
-    BoxViewComponent,
+    BoxViewComponent
   ],
   imports: [
     BrowserModule,
@@ -63,9 +63,11 @@ import { MatDialogModule } from '@angular/material';
     MatTooltipModule,
     MatInputModule,
     FormsModule,
+    ReactiveFormsModule,
     MatSelectModule,
     DragDropModule,
-    MatDialogModule
+    MatDialogModule,
+    MatAutocompleteModule
 
   ],
   providers: [],

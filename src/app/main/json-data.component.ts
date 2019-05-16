@@ -14,7 +14,7 @@ export class SnackBarOverviewExample {
 }
 
 
-export class Data {
+export class Data extends Array{
 
     catName: String;
     initial: String;

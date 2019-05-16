@@ -1,4 +1,50 @@
 <link href="https://fonts.googleapis.com/css?family=Montserrat|Raleway" rel="stylesheet">
+
+<mat-card style="align-content:center;font-family:'Montserrat'">
+  <mat-form-field style="min-width:85%; white-space: nowrap">
+    <input type="text" matAutosize="true" matTextareaAutosize="true" placeholder="Search" matInput
+      [formControl]="searchField" (oninput)="searchByCatName($event.target.value)" [matAutocomplete]="auto"
+      style="font-family:'Montserrat'" />
+
+    <mat-autocomplete #auto="matAutocomplete" (optionSelected)="addSelected($event.option.value)">
+      <mat-option *ngFor="let option of filteredOptions | async" [value]="option.catName"
+        style="height: fit-content; white-space: pre-wrap;font-family:'Montserrat'">
+        {{option.catName}} {{option.initial}} <button matTooltipShowDelay="1000" matTooltip="Add / Long press to scroll"
+          style="margin-left:20px" mat-button (click)="addToArray(option); $event.stopPropagation()"
+          (longpress)="scrollToChosenArray(option)">
+          <i class="material-icons">
+            add</i>
+        </button>
+      </mat-option>
+    </mat-autocomplete>
+  </mat-form-field>
+  <button *ngIf="searchField.value" mat-button (click)="resetSearch()">
+    <i class="material-icons">
+      clear
+    </i>
+  </button>
+
+  <ng-container >
+
+      <mat-card class="chosenArrayClass" *ngFor="let item of selectedItem"
+        style="font-family:'Raleway';white-space: pre-wrap">
+        <mat-card-title>
+          {{item.catName}} {{item.initial}}
+        </mat-card-title>
+        <mat-card-subtitle>
+
+        </mat-card-subtitle>
+        <mat-card-content [innerHTML]="item.description" *ngIf="selItemDesc">
+          <p>
+            {{item.description}}
+          </p>
+        </mat-card-content>
+      </mat-card>
+    </ng-container>
+
+</mat-card>
+
+
 <mat-card>
   <mat-accordion style="font-family:'Montserrat'">
     <mat-expansion-panel id="chosenArray" [expanded]="chosenPanelExpanded" [disabled]="chosenArray.length==0"
@@ -12,7 +58,7 @@
         <ng-container>
           <mat-card *ngFor="let item of chosenArray; let i=index" class="chosenArrayClass">
             <mat-card-title>
-              {{item.initial}}{{item.number}}
+              {{item.initial}}
             </mat-card-title>
             <mat-card-subtitle>
               {{item.catName}}
@@ -32,7 +78,7 @@
                 </i>
               </button>
               <button mat-stroked-button matTooltipShowDelay="1000" matTooltip="Copy code"
-                (click)="copyToClipboard(item.qualifier ? item.initial+item.number+'.'+item.qualifier : item.initial+item.number);"
+                (click)="copyToClipboard(item.qualifier ? item.initial+'.'+item.qualifier : item.initial);"
                 class="mt-buttons">
                 <i class="material-icons">
                   file_copy
@@ -78,15 +124,15 @@
         <ng-container>
           <mat-accordion>
             <mat-expansion-panel *ngFor="let secondclass of firstclass.subCat;let i=index" class="secondlass"
-              (opened)="panelOpenState = secondclass.initial+secondclass.number" style="white-space:pre-wrap">
+              (opened)="panelOpenState = secondclass.initial" style="white-space:pre-wrap">
               <mat-expansion-panel-header class="secondpanel">
                 <mat-panel-title>
                   {{secondclass.catName}}
                 </mat-panel-title>
                 <mat-panel-description>
                   <button matTooltipShowDelay="1000" matTooltip="Copy" mat-button class="mt-buttons"
-                    (click)="copyToClipboard(secondclass.initial+secondclass.number);$event.stopPropagation();">
-                    {{secondclass.initial}} {{secondclass.number}}</button>
+                    (click)="copyToClipboard(secondclass.initial);$event.stopPropagation();">
+                    {{secondclass.initial}}</button>
                 </mat-panel-description>
               </mat-expansion-panel-header>
               <mat-card *ngIf='secondclass.description!==""' class="matDescription">
@@ -109,9 +155,9 @@
                       </mat-panel-title>
                       <mat-panel-description>
                         <button matTooltipShowDelay="1000" matTooltip="Copy" mat-button class="mt-buttons"
-                          (click)="copyToClipboard(thirdclass.initial+thirdclass.number);$event.stopPropagation();">
-                          {{thirdclass.initial}} {{thirdclass.number}} </button>
-                        <button matTooltipShowDelay="1000" matTooltip="Add / Long press to scroll " mat-stroked-button
+                          (click)="copyToClipboard(thirdclass.initial);$event.stopPropagation();">
+                          {{thirdclass.initial}}</button>
+                        <button matTooltipShowDelay="1000" matTooltip="Add / Long press to scroll" mat-stroked-button
                           (click)="addToArray(thirdclass);$event.stopPropagation()"
                           (longpress)="scrollToChosenArray(thirdclass)">
                           <i class="material-icons">
@@ -131,21 +177,20 @@
                     </mat-card>
 
                     <!-- 4 Class -->
-                    <ng-container
-                      *ngIf='(secondclass.initial+secondclass.number).includes(panelOpenState) && thirdclass.subCat!==""'>
+                    <ng-container *ngIf='(secondclass.initial).includes(panelOpenState) && thirdclass.subCat!==""'>
                       <mat-accordion>
                         <mat-expansion-panel *ngFor="let fourthclass of thirdclass.subCat" class="fourthclass"
                           [disabled]='fourthclass.subCat=="" && fourthclass.description==""'
-                          (opened)="panelOpenState2 = fourthclass.initial+fourthclass.number">
+                          (opened)="panelOpenState2 = fourthclass.initial">
                           <mat-expansion-panel-header class="fourthpanel">
                             <mat-panel-title>
                               {{fourthclass.catName}}
                             </mat-panel-title>
                             <mat-panel-description>
                               <button matTooltipShowDelay="1000" matTooltip="Copy code" mat-button class="mt-buttons"
-                                (click)="copyToClipboard(fourthclass.initial+fourthclass.number);$event.stopPropagation();">
-                                {{fourthclass.initial}} {{fourthclass.number}}</button>
-                              <button matTooltipShowDelay="1000" matTooltip="Add / Long press to scroll "
+                                (click)="copyToClipboard(fourthclass.initial);$event.stopPropagation();">
+                                {{fourthclass.initial}}</button>
+                              <button matTooltipShowDelay="1000" matTooltip="Add / Long press to scroll"
                                 mat-stroked-button (click)="addToArray(fourthclass);$event.stopPropagation()"
                                 (longpress)="scrollToChosenArray(fourthclass)">
                                 <i class="material-icons">
@@ -175,9 +220,9 @@
                                   <mat-panel-description>
                                     <button matTooltipShowDelay="1000" matTooltip="Copy code" mat-button
                                       class="mt-buttons"
-                                      (click)="copyToClipboard(fifthclass.initial+fifthclass.number);$event.stopPropagation();">
-                                      {{fifthclass.initial}} {{fifthclass.number}}</button>
-                                    <button matTooltipShowDelay="1000" matTooltip="Add / Long press to scroll "
+                                      (click)="copyToClipboard(fifthclass.initial);$event.stopPropagation();">
+                                      {{fifthclass.initial}}</button>
+                                    <button matTooltipShowDelay="1000" matTooltip="Add / Long press to scroll"
                                       mat-stroked-button (click)="addToArray(fifthclass);$event.stopPropagation()"
                                       (longpress)="scrollToChosenArray(fifthclass)">
                                       <i class="material-icons">
@@ -197,7 +242,7 @@
 
                                 <!-- 6 Class -->
                                 <ng-container
-                                  *ngIf='(fifthclass.initial+fifthclass.number).includes(panelOpenState2) && fifthclass.subCat!==""'>
+                                  *ngIf='(fifthclass.initial).includes(panelOpenState2) && fifthclass.subCat!==""'>
                                   <mat-accordion>
                                     <mat-expansion-panel *ngFor="let sixthclass of fifthclass.subCat"
                                       [disabled]='sixthclass.subCat=="" && sixthclass.description==""'
@@ -209,9 +254,9 @@
                                         <mat-panel-description>
                                           <button matTooltipShowDelay="1000" matTooltip="Copy code" mat-button
                                             class="mt-buttons"
-                                            (click)="copyToClipboard(sixthclass.initial+sixthclass.number);$event.stopPropagation();">
-                                            {{sixthclass.initial}} {{sixthclass.number}}</button>
-                                          <button matTooltipShowDelay="1000" matTooltip="Add / Long press to scroll "
+                                            (click)="copyToClipboard(sixthclass.initial);$event.stopPropagation();">
+                                            {{sixthclass.initial}}</button>
+                                          <button matTooltipShowDelay="1000" matTooltip="Add / Long press to scroll"
                                             mat-stroked-button (click)="addToArray(sixthclass);$event.stopPropagation()"
                                             (longpress)="scrollToChosenArray(sixthclass)">
                                             <i class="material-icons">
