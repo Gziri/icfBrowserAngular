@@ -14,8 +14,8 @@ export class SnackBarOverviewExample {
 }
 
 
-export class Data extends Array{
-
+export class Data extends Array {
+    id: number;
     catName: String;
     initial: String;
     number: Number;

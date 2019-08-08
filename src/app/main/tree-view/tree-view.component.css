@@ -19,6 +19,13 @@ input {
     align-content: center !important;
 } */
 
+.favButton {
+    opacity: 0.5;
+}
+.favButton:hover{
+    opacity: 1;
+}
+
 mat-card {
     margin-top: 5px;
     margin-bottom: 10px;
@@ -143,6 +150,16 @@ mat-panel-description {
     margin-bottom: 10px;
     animation: slide-up 0.4s ease-in-out;
 }
+
+.favouritesClass {
+    /* display: inline-flex;  */
+    margin-bottom: 5px;
+    display: inline-block;
+    width: fit-content;
+    margin-right: 3px;
+    animation: slide-up 0.4s ease-in-out;
+}
+
 
 .chosenArrayBox {
     animation: slide-up 1s ease-in-out;

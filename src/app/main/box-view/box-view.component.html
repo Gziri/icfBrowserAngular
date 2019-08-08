@@ -1,0 +1,12 @@
+<div *ngFor="let i of test" style="color:black">
+    <p> {{i.question}}</p>
+    <p>A.{{i.option}}</p>
+    <p>B.{{i.option1}}</p>
+    <p>C.{{i.answer}}</p>
+    <p *ngIf="i.option2">D.{{i.option2}}</p>
+    <p *ngIf="i.option3">E.{{i.option3}}</p>
+    <p *ngIf="i.option4">F.{{i.option4}}</p>
+    <p *ngIf="i.option5">F.{{i.option5}}</p>
+    <p>ANSWER: {{i.answer}}</p>
+    <p>asdasd</p>
+</div>

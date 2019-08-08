@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, AfterViewInit } from '@angular/core';
 import { Data } from './json-data.component';
 import { Observable } from 'rxjs';
 
@@ -16,19 +16,9 @@ export class MainComponent implements OnInit {
 
   private detect: Observable<boolean>;
 
-  // public assignData() {
-  //   let sample = JSON.parse(JSON.stringify(this.getJson()));
-  //   this.data = sample.default;
-  // }
-
-  // private getJson() {
-  //   let data = json;
-  //   return data
-  // }
-
   ngOnInit() {
-    // this.assignData();
     this.detectDevice();
+
   }
 
 
